@@ -8,10 +8,16 @@ import {
   FileCheck2,
   PhoneCall,
   Info,
+  Sun,
+  Moon,
+  ArrowRight,
+  CheckCircle2,
 } from 'lucide-react';
 
 interface OnboardingPrivacyViewProps {
   currentGrade: '10' | '11' | '12' | null;
+  theme?: 'light' | 'dark';
+  onToggleTheme?: (theme: 'light' | 'dark') => void;
   onStartDemo: (grade: '10' | '11' | '12' | null) => void;
   onStartNewProfile: (grade: '10' | '11' | '12' | null) => void;
   onOpenEmergencySupport: () => void;
@@ -19,6 +25,8 @@ interface OnboardingPrivacyViewProps {
 
 export const OnboardingPrivacyView: React.FC<OnboardingPrivacyViewProps> = ({
   currentGrade,
+  theme = 'light',
+  onToggleTheme,
   onStartDemo,
   onStartNewProfile,
   onOpenEmergencySupport,
@@ -27,196 +35,264 @@ export const OnboardingPrivacyView: React.FC<OnboardingPrivacyViewProps> = ({
   const [acknowledgedStorage, setAcknowledgedStorage] = useState(true);
 
   return (
-    <div className="min-h-screen bg-[var(--lb-bg)] text-[var(--lb-text)] px-4 py-6 md:py-10">
-      <div className="max-w-3xl mx-auto space-y-6">
-        {/* Header Brand + Truy cập hỗ trợ không cần đồng thuận */}
-        <div className="flex flex-wrap items-center justify-between gap-3 bg-[var(--lb-card)] border border-[var(--lb-border)] rounded-2xl p-4 shadow-xs">
-          <div className="flex items-center gap-3">
-            <div className="w-11 h-11 rounded-2xl bg-[#006B60] dark:bg-[#78D9C7] text-white dark:text-[#101C1A] flex items-center justify-center shrink-0">
-              <Compass className="w-6 h-6" />
-            </div>
-            <div>
-              <div className="flex items-center gap-2 flex-wrap">
-                <h1 className="text-lg font-bold tracking-tight">LA BÀN TƯƠNG LAI</h1>
-                <span className="text-xs font-semibold px-2 py-0.5 rounded-md border border-[var(--lb-border)] text-[var(--lb-muted)]">
-                  Phiếu 2.0 · Quy tắc 2.0.1
-                </span>
-              </div>
-              <p className="text-xs text-[var(--lb-muted)]">
-                Hiểu mình — Hiểu nghề — Hiểu bối cảnh — Hành động · Mỗi trải nghiệm, một bước hiểu mình.
-              </p>
-            </div>
+    <div className="min-h-screen bg-[var(--lb-bg)] text-[var(--lb-text)] flex flex-col">
+      {/* Top Bar Contract: 3 zones */}
+      <header className="bg-[var(--lb-card)] border-b border-[var(--lb-border)] px-4 sm:px-6 py-3.5">
+        <div className="max-w-[1320px] mx-auto flex items-center justify-between gap-8">
+          <span className="text-lg font-extrabold tracking-tight whitespace-nowrap shrink-0">
+            La Bàn Tương Lai
+          </span>
+
+          <div className="hidden md:flex items-center gap-6 text-xs font-medium text-[var(--lb-muted)]">
+            <span className="whitespace-nowrap shrink-0">00. Giới thiệu & Quyền riêng tư</span>
+            <span aria-hidden="true">·</span>
+            <span className="whitespace-nowrap shrink-0">Phiếu chuẩn 2.0</span>
+            <span aria-hidden="true">·</span>
+            <span className="whitespace-nowrap shrink-0">Quy tắc chấm 2.0.1 Offline</span>
           </div>
 
-          <button
-            type="button"
-            onClick={onOpenEmergencySupport}
-            className="min-h-[48px] px-4 py-2 rounded-xl border border-[#B42318] text-[#B42318] dark:border-[#F28B82] dark:text-[#F28B82] font-semibold text-sm flex items-center gap-2 hover:opacity-90 transition-opacity"
-          >
-            <PhoneCall className="w-4 h-4" />
-            <span>Em cần hỗ trợ</span>
-          </button>
-        </div>
-
-        {/* 3 Thẻ nguyên tắc nhân văn cốt lõi */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-          <div className="bg-[var(--lb-card)] border border-[var(--lb-border)] rounded-2xl p-5 space-y-2">
-            <div className="w-9 h-9 rounded-xl bg-[#006B60]/10 dark:bg-[#78D9C7]/15 text-[var(--lb-primary)] flex items-center justify-center">
-              <Sparkles className="w-5 h-5" />
-            </div>
-            <h2 className="text-base font-bold">1. Hiểu mình bằng trải nghiệm</h2>
-            <p className="text-sm text-[var(--lb-muted)]">
-              206 mục tự khảo sát và Phòng thử nghề trên giấy giúp em quan sát sở thích, giá trị sống và bước đi thực tế.
-            </p>
-          </div>
-
-          <div className="bg-[var(--lb-card)] border border-[var(--lb-border)] rounded-2xl p-5 space-y-2">
-            <div className="w-9 h-9 rounded-xl bg-[#245B91]/10 text-[var(--lb-info)] flex items-center justify-center">
-              <HeartHandshake className="w-5 h-5" />
-            </div>
-            <h2 className="text-base font-bold">2. Không có điểm nào định nghĩa em</h2>
-            <p className="text-sm text-[var(--lb-muted)]">
-              Mọi điểm số chỉ là ảnh chụp thời điểm hiện tại để mở ra đối thoại, không phải chẩn đoán hay phán quyết nghề duy nhất.
-            </p>
-          </div>
-
-          <div className="bg-[var(--lb-card)] border border-[var(--lb-border)] rounded-2xl p-5 space-y-2">
-            <div className="w-9 h-9 rounded-xl bg-[#8A5A16]/10 text-[var(--lb-warn)] flex items-center justify-center">
-              <Lock className="w-5 h-5" />
-            </div>
-            <h2 className="text-base font-bold">3. Quyền dừng, bỏ qua và giữ riêng</h2>
-            <p className="text-sm text-[var(--lb-muted)]">
-              Em luôn có lựa chọn <strong>U (Chưa rõ)</strong> và <strong>X (Không muốn trả lời)</strong>. Nhật ký tự vấn I/O mặc định em tự giữ trên giấy.
-            </p>
-          </div>
-        </div>
-
-        {/* Thông báo quyền riêng tư & Giới hạn sản phẩm */}
-        <div className="bg-[var(--lb-card)] border border-[var(--lb-border)] rounded-2xl p-6 space-y-4">
-          <div className="flex items-start gap-3">
-            <ShieldCheck className="w-6 h-6 text-[var(--lb-primary)] shrink-0 mt-0.5" />
-            <div>
-              <h2 className="text-lg font-bold">Cam kết Quyền riêng tư & Hoạt động Ngoại tuyến (Offline 100%)</h2>
-              <p className="text-sm text-[var(--lb-muted)] mt-1">
-                Thiết kế tham chiếu quy định bảo vệ học sinh và dữ liệu cá nhân (Thông tư 18/2025/TT-BGDĐT, Luật 91/2025/QH15, Nghị định 356/2025/NĐ-CP):
-              </p>
-            </div>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm">
-            <div className="p-3.5 rounded-xl bg-[var(--lb-bg)] border border-[var(--lb-border)] space-y-1">
-              <div className="font-semibold">Dữ liệu KHÔNG thu thập</div>
-              <p className="text-[var(--lb-muted)]">
-                Không hỏi họ tên, số điện thoại, ngày sinh chính xác, tên trường, vị trí GPS, danh bạ, camera hay tài khoản. Không gọi AI/Gemini lúc chạy.
-              </p>
-            </div>
-            <div className="p-3.5 rounded-xl bg-[var(--lb-bg)] border border-[var(--lb-border)] space-y-1">
-              <div className="font-semibold">Dữ liệu lưu cục bộ trên thiết bị</div>
-              <p className="text-[var(--lb-muted)]">
-                Chỉ lưu mã hồ sơ ngẫu nhiên, khối lớp tự nguyện (10/11/12) và các câu trả lời A–O để em xem lại hoặc xóa hoàn toàn bất cứ lúc nào.
-              </p>
-            </div>
-            <div className="p-3.5 rounded-xl bg-[var(--lb-bg)] border border-[var(--lb-border)] space-y-1">
-              <div className="font-semibold">Giới hạn của ứng dụng</div>
-              <p className="text-[var(--lb-muted)]">
-                Ứng dụng không thay thế cán bộ tham vấn hay dịch vụ cấp cứu, không tự quét nhật ký I/O và không tự liên hệ giáo viên hay cha mẹ.
-              </p>
-            </div>
-            <div className="p-3.5 rounded-xl bg-[var(--lb-bg)] border border-[var(--lb-border)] space-y-1">
-              <div className="font-semibold">Khác biệt bản cá nhân & trường học</div>
-              <p className="text-[var(--lb-muted)]">
-                Bản thử kỹ thuật chỉ dùng dữ liệu giả lập (DEMO). Khi dùng tại trường, cần có quy trình đồng thuận và người phụ trách được phê duyệt.
-              </p>
-            </div>
-          </div>
-
-          {/* Chọn khối lớp tự nguyện */}
-          <div className="pt-2 border-t border-[var(--lb-border)] space-y-3">
-            <div>
-              <label className="block text-sm font-semibold">
-                Chọn khối lớp của em (Tự nguyện — có thể bỏ qua):
-              </label>
-              <p className="text-xs text-[var(--lb-muted)]">
-                Giúp gợi ý nhiệm vụ gần gũi hơn; không bắt buộc phải chọn.
-              </p>
-            </div>
-            <div className="flex flex-wrap gap-2">
-              {(['10', '11', '12'] as const).map((g) => (
-                <button
-                  key={g}
-                  type="button"
-                  onClick={() => setSelectedGrade(selectedGrade === g ? null : g)}
-                  className={`min-h-[48px] px-5 py-2.5 rounded-xl border font-semibold text-sm transition-colors ${
-                    selectedGrade === g
-                      ? 'bg-[#006B60] dark:bg-[#78D9C7] text-white dark:text-[#101C1A] border-transparent'
-                      : 'bg-[var(--lb-bg)] border-[var(--lb-border)] text-[var(--lb-text)] hover:border-[var(--lb-primary)]'
-                  }`}
-                >
-                  Khối {g}
-                </button>
-              ))}
+          <div className="flex items-center gap-2.5 shrink-0">
+            {onToggleTheme && (
               <button
                 type="button"
-                onClick={() => setSelectedGrade(null)}
-                className={`min-h-[48px] px-4 py-2.5 rounded-xl border text-sm transition-colors ${
-                  selectedGrade === null
-                    ? 'border-[var(--lb-primary)] text-[var(--lb-primary)] font-semibold bg-[var(--lb-bg)]'
-                    : 'border-[var(--lb-border)] text-[var(--lb-muted)]'
-                }`}
+                onClick={() => onToggleTheme(theme === 'light' ? 'dark' : 'light')}
+                className="min-h-[42px] px-3 py-2 rounded-xl border border-[var(--lb-border)] bg-[var(--lb-bg)] text-xs font-bold flex items-center gap-1.5 whitespace-nowrap shrink-0 lb-transition"
               >
-                Bỏ qua chọn khối
+                {theme === 'light' ? <Moon className="w-3.5 h-3.5" /> : <Sun className="w-3.5 h-3.5" />}
+                <span>{theme === 'light' ? 'Giao diện Tối' : 'Giao diện Sáng'}</span>
               </button>
+            )}
+            <button
+              type="button"
+              onClick={onOpenEmergencySupport}
+              className="min-h-[42px] px-4 py-2 rounded-xl bg-[var(--lb-danger-soft)] text-[var(--lb-danger)] border border-[var(--lb-danger)]/30 hover:bg-[#B42318] hover:text-white font-bold text-xs flex items-center gap-2 whitespace-nowrap shrink-0 lb-transition"
+            >
+              <PhoneCall className="w-3.5 h-3.5" />
+              <span>Em cần hỗ trợ (111 / 115 / 113)</span>
+            </button>
+          </div>
+        </div>
+      </header>
+
+      {/* Main Split-Hero Onboarding Workspace */}
+      <main className="flex-1 max-w-[1320px] w-full mx-auto px-4 sm:px-6 py-8 space-y-8">
+        {/* Hero Split Grid */}
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-stretch">
+          {/* Left Column: Value Proposition & Humane Philosophy (7 cols) */}
+          <div className="lg:col-span-7 bg-[var(--lb-card)] border border-[var(--lb-border)] rounded-2xl p-6 sm:p-8 flex flex-col justify-between space-y-6">
+            <div className="space-y-4">
+              <div className="text-xs font-semibold text-[var(--lb-primary)] flex items-center gap-2 flex-wrap">
+                <span>Hệ thống tham vấn học đường & tự định hướng THPT (15–18 tuổi)</span>
+                <span aria-hidden="true">·</span>
+                <span>Offline 100%</span>
+              </div>
+
+              <h1 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold tracking-tight text-[var(--lb-text)]">
+                Mỗi trải nghiệm nhỏ hôm nay là một bước hiểu mình rõ hơn.
+              </h1>
+
+              <p className="text-sm sm:text-base text-[var(--lb-muted)] leading-relaxed max-w-2xl">
+                La Bàn Tương Lai giúp em tự quan sát sở thích, giá trị sống, sản phẩm thực chứng trên giấy và bối cảnh gia đình qua <strong>206 mục chuẩn hóa</strong>. Không có bất kỳ con số hay thuật toán nào được phép phán quyết tương lai thay em.
+              </p>
+            </div>
+
+            {/* 3 Core Pillars inside Left Hero */}
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-4 border-t border-[var(--lb-border)]">
+              <div className="space-y-1.5">
+                <div className="flex items-center gap-2 text-sm font-bold text-[var(--lb-text)]">
+                  <Sparkles className="w-4 h-4 text-[var(--lb-primary)] shrink-0" />
+                  <span>01. Hiểu qua trải nghiệm</span>
+                </div>
+                <p className="text-xs text-[var(--lb-muted)]">
+                  Kết hợp tự mô tả (A, B, C, D) với Phòng thử nghề trên giấy (N01–N08) và đối sánh hành vi (J).
+                </p>
+              </div>
+
+              <div className="space-y-1.5">
+                <div className="flex items-center gap-2 text-sm font-bold text-[var(--lb-text)]">
+                  <HeartHandshake className="w-4 h-4 text-[var(--lb-info)] shrink-0" />
+                  <span>02. Không dán nhãn</span>
+                </div>
+                <p className="text-xs text-[var(--lb-muted)]">
+                  Báo cáo chỉ là ảnh chụp thời điểm hiện tại để mở đối thoại, tuyệt đối không gán nhãn tính cách cố định.
+                </p>
+              </div>
+
+              <div className="space-y-1.5">
+                <div className="flex items-center gap-2 text-sm font-bold text-[var(--lb-text)]">
+                  <Lock className="w-4 h-4 text-[var(--lb-warn)] shrink-0" />
+                  <span>03. Tôn trọng U & X</span>
+                </div>
+                <p className="text-xs text-[var(--lb-muted)]">
+                  Quyền chọn <strong>U (Chưa rõ)</strong>, <strong>X (Giữ riêng)</strong> ở mọi câu mà không bao giờ bị ép về 0 điểm.
+                </p>
+              </div>
             </div>
           </div>
 
-          {/* Tùy chọn xác nhận lưu cục bộ riêng biệt (Không ép đồng thuận gộp) */}
-          <div className="p-4 rounded-xl bg-[var(--lb-bg)] border border-[var(--lb-border)] flex items-start gap-3">
-            <input
-              id="consent-local-storage"
-              type="checkbox"
-              checked={acknowledgedStorage}
-              onChange={(e) => setAcknowledgedStorage(e.target.checked)}
-              className="mt-1 w-5 h-5 accent-[#006B60] rounded"
-            />
-            <label htmlFor="consent-local-storage" className="text-sm cursor-pointer">
-              <span className="font-semibold">Em đã đọc giải thích về lưu dữ liệu cục bộ trên thiết bị này.</span>{' '}
-              <span className="text-[var(--lb-muted)]">
-                Em hiểu mình có thể xóa từng phân hệ hoặc xóa toàn bộ hồ sơ bất cứ lúc nào tại mục <strong>Em</strong>.
-              </span>
-            </label>
-          </div>
+          {/* Right Column: Interactive Quick-Start Control Panel (5 cols) */}
+          <div className="lg:col-span-5 bg-[var(--lb-card)] border border-[var(--lb-border)] rounded-2xl p-6 sm:p-8 flex flex-col justify-between space-y-6">
+            <div className="space-y-5">
+              <div className="flex items-center justify-between border-b border-[var(--lb-border)] pb-3">
+                <div>
+                  <h2 className="text-lg font-bold">Thiết lập phiên làm việc cục bộ</h2>
+                  <p className="text-xs text-[var(--lb-muted)]">
+                    Dữ liệu chỉ lưu trên trình duyệt của thiết bị này, không gửi lên máy chủ.
+                  </p>
+                </div>
+                <div className="w-10 h-10 rounded-xl bg-[var(--lb-primary-soft)] text-[var(--lb-primary)] flex items-center justify-center shrink-0">
+                  <Compass className="w-5 h-5" />
+                </div>
+              </div>
 
-          {/* Các nút hành động bắt đầu */}
-          <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-end gap-3 pt-2">
-            <button
-              type="button"
-              disabled={!acknowledgedStorage}
-              onClick={() => onStartDemo(selectedGrade || '11')}
-              className="min-h-[48px] px-5 py-3 rounded-xl border-2 border-[var(--lb-primary)] text-[var(--lb-primary)] font-bold text-sm flex items-center justify-center gap-2 hover:bg-[#006B60]/5 disabled:opacity-40 transition-colors"
-            >
-              <FileCheck2 className="w-5 h-5" />
-              <span>Dùng dữ liệu minh họa (DEMO)</span>
-            </button>
+              {/* Bước 1: Chọn khối lớp */}
+              <div className="space-y-2">
+                <label className="block text-xs font-bold text-[var(--lb-text)]">
+                  Bước 1 · Chọn khối lớp hiện tại của em (Tự nguyện — có thể bỏ qua):
+                </label>
+                <div className="grid grid-cols-4 gap-2">
+                  {(['10', '11', '12'] as const).map((g) => (
+                    <button
+                      key={g}
+                      type="button"
+                      onClick={() => setSelectedGrade(selectedGrade === g ? null : g)}
+                      className={`min-h-[44px] px-3 py-2 rounded-xl border font-bold text-xs whitespace-nowrap shrink-0 lb-transition ${
+                        selectedGrade === g
+                          ? 'bg-[var(--lb-primary)] text-white dark:text-[#0B1514] border-transparent'
+                          : 'bg-[var(--lb-bg)] border-[var(--lb-border)] text-[var(--lb-text)] hover:border-[var(--lb-primary)]'
+                      }`}
+                    >
+                      Khối {g}
+                    </button>
+                  ))}
+                  <button
+                    type="button"
+                    onClick={() => setSelectedGrade(null)}
+                    className={`min-h-[44px] px-3 py-2 rounded-xl border text-xs font-semibold whitespace-nowrap shrink-0 lb-transition ${
+                      selectedGrade === null
+                        ? 'border-[var(--lb-primary)] text-[var(--lb-primary)] bg-[var(--lb-primary-soft)] font-bold'
+                        : 'bg-[var(--lb-bg)] border-[var(--lb-border)] text-[var(--lb-muted)]'
+                    }`}
+                  >
+                    Bỏ qua
+                  </button>
+                </div>
+              </div>
 
-            <button
-              type="button"
-              disabled={!acknowledgedStorage}
-              onClick={() => onStartNewProfile(selectedGrade)}
-              className="min-h-[48px] px-6 py-3 rounded-xl bg-[#006B60] dark:bg-[#78D9C7] text-white dark:text-[#101C1A] font-bold text-sm flex items-center justify-center gap-2 hover:opacity-95 disabled:opacity-40 transition-opacity"
-            >
-              <Compass className="w-5 h-5" />
-              <span>Bắt đầu hồ sơ tự chọn mới</span>
-            </button>
-          </div>
+              {/* Bước 2: Xác nhận hiểu quyền lưu & xóa cục bộ */}
+              <div className="p-4 rounded-xl bg-[var(--lb-bg)] border border-[var(--lb-border)]">
+                <label htmlFor="consent-local-storage" className="flex items-start gap-3 cursor-pointer">
+                  <input
+                    id="consent-local-storage"
+                    type="checkbox"
+                    checked={acknowledgedStorage}
+                    onChange={(e) => setAcknowledgedStorage(e.target.checked)}
+                    className="mt-0.5 w-5 h-5 accent-[#006B60] rounded shrink-0"
+                  />
+                  <span className="text-xs leading-relaxed">
+                    <strong className="text-[var(--lb-text)]">
+                      Em đã đọc giải thích về quyền lưu dữ liệu cục bộ trên thiết bị này.
+                    </strong>{' '}
+                    <span className="text-[var(--lb-muted)]">
+                      Em hiểu mình có thể xóa từng phân hệ hoặc xóa sạch toàn bộ hồ sơ bất cứ lúc nào tại mục <strong>Em</strong>.
+                    </span>
+                  </span>
+                </label>
+              </div>
+            </div>
 
-          <div className="flex items-center gap-2 text-xs text-[var(--lb-muted)] pt-1">
-            <Info className="w-4 h-4 shrink-0" />
-            <span>
-              Trong bản nguyên mẫu kỹ thuật, vui lòng chỉ dùng dữ liệu giả lập (DEMO), không nhập thông tin định danh học sinh thật.
-            </span>
+            {/* Bước 3: Chọn chế độ khởi tạo */}
+            <div className="space-y-3 pt-2">
+              <button
+                type="button"
+                disabled={!acknowledgedStorage}
+                onClick={() => onStartDemo(selectedGrade || '11')}
+                className="w-full min-h-[50px] px-5 py-3 rounded-xl bg-[var(--lb-primary)] text-white dark:text-[#0B1514] font-bold text-sm flex items-center justify-between gap-3 hover:opacity-95 disabled:opacity-40 lb-transition"
+              >
+                <div className="flex items-center gap-2.5">
+                  <FileCheck2 className="w-5 h-5 shrink-0" />
+                  <span>Khám phá ngay với dữ liệu minh họa (DEMO)</span>
+                </div>
+                <ArrowRight className="w-4 h-4 shrink-0" />
+              </button>
+
+              <button
+                type="button"
+                disabled={!acknowledgedStorage}
+                onClick={() => onStartNewProfile(selectedGrade)}
+                className="w-full min-h-[48px] px-5 py-3 rounded-xl border border-[var(--lb-primary)] bg-[var(--lb-bg)] text-[var(--lb-primary)] font-bold text-sm flex items-center justify-center gap-2 hover:bg-[var(--lb-primary-soft)] disabled:opacity-40 lb-transition"
+              >
+                <Compass className="w-4 h-4 shrink-0" />
+                <span>Bắt đầu hồ sơ trống mới từ đầu</span>
+              </button>
+
+              <div className="flex items-center gap-2 text-[11px] text-[var(--lb-muted)] pt-1">
+                <Info className="w-3.5 h-3.5 shrink-0 text-[var(--lb-primary)]" />
+                <span>
+                  Trong bản thử nghiệm kỹ thuật, khuyến nghị dùng hồ sơ DEMO (không nhập định danh cá nhân thật).
+                </span>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
+
+        {/* Bottom 4-Column Privacy & Compliance Strip */}
+        <div className="bg-[var(--lb-card)] border border-[var(--lb-border)] rounded-2xl p-6 space-y-4">
+          <div className="flex flex-wrap items-center justify-between gap-2 border-b border-[var(--lb-border)] pb-3">
+            <div className="flex items-center gap-2">
+              <ShieldCheck className="w-5 h-5 text-[var(--lb-primary)]" />
+              <h2 className="text-base font-bold">
+                Cam kết Bảo vệ Dữ liệu Cá nhân & Đạo đức Tham vấn Học đường
+              </h2>
+            </div>
+            <span className="text-xs text-[var(--lb-muted)]">
+              Tham chiếu Thông tư 18/2025/TT-BGDĐT · Luật 91/2025/QH15 · Nghị định 356/2025/NĐ-CP · ASCA 2022
+            </span>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 text-xs">
+            <div className="p-4 rounded-xl bg-[var(--lb-bg)] border border-[var(--lb-border)] space-y-1.5">
+              <div className="font-bold text-[var(--lb-text)] flex items-center gap-1.5">
+                <CheckCircle2 className="w-4 h-4 text-[var(--lb-primary)] shrink-0" />
+                <span>Không thu thập định danh</span>
+              </div>
+              <p className="text-[var(--lb-muted)]">
+                Không hỏi họ tên, số điện thoại, ngày sinh, tên trường, GPS, camera hay tài khoản mạng xã hội.
+              </p>
+            </div>
+
+            <div className="p-4 rounded-xl bg-[var(--lb-bg)] border border-[var(--lb-border)] space-y-1.5">
+              <div className="font-bold text-[var(--lb-text)] flex items-center gap-1.5">
+                <CheckCircle2 className="w-4 h-4 text-[var(--lb-primary)] shrink-0" />
+                <span>Không gọi AI lúc chạy</span>
+              </div>
+              <p className="text-[var(--lb-muted)]">
+                Toàn bộ điểm số và gợi ý đối thoại vận hành bằng tập quy tắc tất định 2.0.1 ngay trên thiết bị.
+              </p>
+            </div>
+
+            <div className="p-4 rounded-xl bg-[var(--lb-bg)] border border-[var(--lb-border)] space-y-1.5">
+              <div className="font-bold text-[var(--lb-text)] flex items-center gap-1.5">
+                <CheckCircle2 className="w-4 h-4 text-[var(--lb-primary)] shrink-0" />
+                <span>Nhật ký I/O ưu tiên trên giấy</span>
+              </div>
+              <p className="text-[var(--lb-muted)]">
+                Ứng dụng không tự động đọc hay quét nhật ký tự vấn I/O, không tự gửi cảnh báo cho gia đình hay giáo viên.
+              </p>
+            </div>
+
+            <div className="p-4 rounded-xl bg-[var(--lb-bg)] border border-[var(--lb-border)] space-y-1.5">
+              <div className="font-bold text-[var(--lb-text)] flex items-center gap-1.5">
+                <CheckCircle2 className="w-4 h-4 text-[var(--lb-primary)] shrink-0" />
+                <span>Tách kho nghiên cứu M</span>
+              </div>
+              <p className="text-[var(--lb-muted)]">
+                Phân hệ M (M01–M12) hoàn toàn tách khỏi hồ sơ cá nhân, không gắn mã hồ sơ và tự ẩn mọi ô thống kê dưới 10 phiếu.
+              </p>
+            </div>
+          </div>
+        </div>
+      </main>
     </div>
   );
 };

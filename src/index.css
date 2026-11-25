@@ -2,46 +2,65 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 :root {
-  --lb-bg: #F5F8F7;
+  --lb-bg: #F3F7F6;
+  --lb-surface-subtle: #E9F0EE;
   --lb-card: #FFFFFF;
+  --lb-card-hover: #F8FBFA;
   --lb-primary: #006B60;
-  --lb-text: #143D39;
-  --lb-muted: #52635F;
-  --lb-border: #D4E2DE;
-  --lb-info: #245B91;
+  --lb-primary-hover: #00544B;
+  --lb-primary-soft: rgba(0, 107, 96, 0.08);
+  --lb-text: #0F2E2B;
+  --lb-muted: #4E6560;
+  --lb-border: #D5E2DF;
+  --lb-border-strong: #B8CCC7;
+  --lb-info: #1D5B96;
+  --lb-info-soft: rgba(29, 91, 150, 0.08);
   --lb-warn: #8A5A16;
+  --lb-warn-soft: rgba(138, 90, 22, 0.1);
   --lb-danger: #B42318;
+  --lb-danger-soft: rgba(180, 35, 24, 0.08);
   --font-scale: 1;
 }
 
 .dark {
-  --lb-bg: #101C1A;
-  --lb-card: #192B27;
-  --lb-primary: #78D9C7;
-  --lb-text: #E7F4EF;
-  --lb-muted: #A9C2BC;
-  --lb-border: #28423D;
-  --lb-info: #80B3EA;
-  --lb-warn: #E5B567;
+  --lb-bg: #0B1514;
+  --lb-surface-subtle: #11201E;
+  --lb-card: #152623;
+  --lb-card-hover: #1B302C;
+  --lb-primary: #6EE7D2;
+  --lb-primary-hover: #8BF0DE;
+  --lb-primary-soft: rgba(110, 231, 210, 0.12);
+  --lb-text: #ECF6F3;
+  --lb-muted: #9AB5AE;
+  --lb-border: #243C37;
+  --lb-border-strong: #32524B;
+  --lb-info: #7CC0FF;
+  --lb-info-soft: rgba(124, 192, 255, 0.12);
+  --lb-warn: #F0C27B;
+  --lb-warn-soft: rgba(240, 194, 123, 0.12);
   --lb-danger: #F28B82;
+  --lb-danger-soft: rgba(242, 139, 130, 0.12);
 }
 
 @layer base {
   html {
     font-size: calc(16px * var(--font-scale, 1));
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans", "Helvetica Neue", Arial, sans-serif;
+    font-family: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", "Helvetica Neue", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 
   body {
     background-color: var(--lb-bg);
     color: var(--lb-text);
-    line-height: 1.5;
+    line-height: 1.55;
     overflow-x: hidden;
   }
 
-  h1, h2, h3 {
+  h1, h2, h3, h4 {
     text-wrap: balance;
-    line-height: 1.3;
+    line-height: 1.28;
+    letter-spacing: -0.015em;
   }
 }
 
@@ -49,7 +68,16 @@
   font-variant-numeric: tabular-nums;
 }
 
-.reduce-motion * {
+/* Mượt mà trong phạm vi <= 200ms theo chuẩn thiết kế */
+.lb-transition {
+  transition-property: color, background-color, border-color, opacity, transform;
+  transition-duration: 150ms;
+  transition-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.reduce-motion *,
+.reduce-motion *::before,
+.reduce-motion *::after {
   transition-duration: 0.01ms !important;
   animation-duration: 0.01ms !important;
 }
