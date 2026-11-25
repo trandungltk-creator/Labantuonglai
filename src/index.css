@@ -1,0 +1,55 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --lb-bg: #F5F8F7;
+  --lb-card: #FFFFFF;
+  --lb-primary: #006B60;
+  --lb-text: #143D39;
+  --lb-muted: #52635F;
+  --lb-border: #D4E2DE;
+  --lb-info: #245B91;
+  --lb-warn: #8A5A16;
+  --lb-danger: #B42318;
+  --font-scale: 1;
+}
+
+.dark {
+  --lb-bg: #101C1A;
+  --lb-card: #192B27;
+  --lb-primary: #78D9C7;
+  --lb-text: #E7F4EF;
+  --lb-muted: #A9C2BC;
+  --lb-border: #28423D;
+  --lb-info: #80B3EA;
+  --lb-warn: #E5B567;
+  --lb-danger: #F28B82;
+}
+
+@layer base {
+  html {
+    font-size: calc(16px * var(--font-scale, 1));
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans", "Helvetica Neue", Arial, sans-serif;
+  }
+
+  body {
+    background-color: var(--lb-bg);
+    color: var(--lb-text);
+    line-height: 1.5;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3 {
+    text-wrap: balance;
+    line-height: 1.3;
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+.reduce-motion * {
+  transition-duration: 0.01ms !important;
+  animation-duration: 0.01ms !important;
+}

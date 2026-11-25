@@ -1,0 +1,7177 @@
+{
+  "schema_version": "1.0",
+  "question_version": "2.0",
+  "rule_version": "2.0.1",
+  "total_items": 206,
+  "modules": [
+    {
+      "id": "A",
+      "name": "Hiểu mình và điều có ý nghĩa",
+      "item_count": 12,
+      "instruction": "Nghĩ về 1–2 tháng gần đây; không cần cố chọn đáp án “đẹp”."
+    },
+    {
+      "id": "B",
+      "name": "Sở thích nghề nghiệp (RIASEC)",
+      "item_count": 36,
+      "instruction": "Giả sử em được học cách làm và có cơ hội tiếp cận an toàn; chọn theo mức thích, không phải mức giỏi."
+    },
+    {
+      "id": "C",
+      "name": "Năng lực hiện có",
+      "item_count": 24,
+      "instruction": "Trong học tập hoặc đời sống gần đây; tự đánh giá theo việc từng làm."
+    },
+    {
+      "id": "D",
+      "name": "Giá trị sống và giá trị nghề",
+      "item_count": 10,
+      "instruction": "Không có giá trị nào mặc định cao quý hơn giá trị khác. Sau khi chọn mức, mời tự chọn tối đa ba ưu tiên theo thứ tự, nêu điều không muốn đánh đổi và cân nhắc khi hai ưu tiên xung đột."
+    },
+    {
+      "id": "E",
+      "name": "Tình huống ra quyết định",
+      "item_count": 12,
+      "instruction": "Chọn một phương án tốt nhất theo bối cảnh đã nêu. Chỉ hiện lời giải sau khi kết thúc lần đo."
+    },
+    {
+      "id": "F",
+      "name": "Bối cảnh và hỗ trợ",
+      "item_count": 8,
+      "instruction": "Không chấm điểm; lựa chọn U/X luôn đứng riêng."
+    },
+    {
+      "id": "G",
+      "name": "Sẵn sàng hành động",
+      "item_count": 8,
+      "instruction": "Ghi theo mức tiến độ, không phải phẩm chất."
+    },
+    {
+      "id": "H",
+      "name": "Tự nhận thức nội tại và bên ngoài",
+      "item_count": 16,
+      "instruction": "Nghĩ về 4 tuần qua. Không có đáp án đẹp hay xấu."
+    },
+    {
+      "id": "I",
+      "name": "Đối thoại với chính mình",
+      "item_count": 16,
+      "instruction": "Chọn 4–6 câu tự nguyện, không điểm, mặc định học sinh tự giữ."
+    },
+    {
+      "id": "J",
+      "name": "Đối sánh hành vi",
+      "item_count": 12,
+      "instruction": "Học sinh và người quan sát được mời ghi độc lập cùng bối cảnh, Y cần ví dụ; không đo nhân cách."
+    },
+    {
+      "id": "K",
+      "name": "Thế giới thay đổi, em lựa chọn",
+      "item_count": 12,
+      "instruction": "Chọn một đáp án phù hợp nhất theo dữ kiện đã cho; không dùng mạng trong lần đo, có thể tra cứu sau khi chấm. Số liệu trong đề là dữ kiện của tình huống, không tự cập nhật."
+    },
+    {
+      "id": "L",
+      "name": "Những việc em đã thực sự làm",
+      "item_count": 12,
+      "instruction": "Trong 30 ngày qua; thiếu cơ hội không phải lỗi của em."
+    },
+    {
+      "id": "M",
+      "name": "Khảo sát thực trạng hướng nghiệp",
+      "item_count": 12,
+      "instruction": "Phiếu nghiên cứu riêng, không liên kết hồ sơ cá nhân; không chấm điểm."
+    },
+    {
+      "id": "N",
+      "name": "Phòng thử nghề trên giấy",
+      "item_count": 8,
+      "instruction": "Mời chọn bài phù hợp, tạo sản phẩm; người tư vấn chấm theo từng rubric, ghi mức hỗ trợ. Không chấm tự động từ văn bản."
+    },
+    {
+      "id": "O",
+      "name": "Nhật ký học hỏi",
+      "item_count": 8,
+      "instruction": "Tự chọn 1–3 câu mỗi lần; tự giữ; không buộc nộp, không theo dõi tâm trạng hay chuỗi ngày."
+    }
+  ],
+  "questions": [
+    {
+      "id": "A01",
+      "module": "A",
+      "subgroup": "NT",
+      "content": "Em có thể nêu một điểm mạnh của mình kèm ví dụ cụ thể.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "1",
+          "label": "Hoàn toàn không đúng với em"
+        },
+        {
+          "value": "2",
+          "label": "Ít đúng"
+        },
+        {
+          "value": "3",
+          "label": "Phần nào đúng"
+        },
+        {
+          "value": "4",
+          "label": "Khá đúng"
+        },
+        {
+          "value": "5",
+          "label": "Rất đúng"
+        },
+        {
+          "value": "U",
+          "label": "Chưa rõ"
+        },
+        {
+          "value": "X",
+          "label": "Không muốn trả lời"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "A02",
+      "module": "A",
+      "subgroup": "NT",
+      "content": "Em nhận ra những hoạt động khiến mình muốn tiếp tục tìm hiểu.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "1",
+          "label": "Hoàn toàn không đúng với em"
+        },
+        {
+          "value": "2",
+          "label": "Ít đúng"
+        },
+        {
+          "value": "3",
+          "label": "Phần nào đúng"
+        },
+        {
+          "value": "4",
+          "label": "Khá đúng"
+        },
+        {
+          "value": "5",
+          "label": "Rất đúng"
+        },
+        {
+          "value": "U",
+          "label": "Chưa rõ"
+        },
+        {
+          "value": "X",
+          "label": "Không muốn trả lời"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "A03",
+      "module": "A",
+      "subgroup": "NT",
+      "content": "Em có thể chỉ ra điều mình cần luyện thêm mà không tự hạ thấp bản thân.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "1",
+          "label": "Hoàn toàn không đúng với em"
+        },
+        {
+          "value": "2",
+          "label": "Ít đúng"
+        },
+        {
+          "value": "3",
+          "label": "Phần nào đúng"
+        },
+        {
+          "value": "4",
+          "label": "Khá đúng"
+        },
+        {
+          "value": "5",
+          "label": "Rất đúng"
+        },
+        {
+          "value": "U",
+          "label": "Chưa rõ"
+        },
+        {
+          "value": "X",
+          "label": "Không muốn trả lời"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "A04",
+      "module": "A",
+      "subgroup": "NT",
+      "content": "Em nhận ra khi nào lựa chọn của mình chịu ảnh hưởng từ người khác.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "1",
+          "label": "Hoàn toàn không đúng với em"
+        },
+        {
+          "value": "2",
+          "label": "Ít đúng"
+        },
+        {
+          "value": "3",
+          "label": "Phần nào đúng"
+        },
+        {
+          "value": "4",
+          "label": "Khá đúng"
+        },
+        {
+          "value": "5",
+          "label": "Rất đúng"
+        },
+        {
+          "value": "U",
+          "label": "Chưa rõ"
+        },
+        {
+          "value": "X",
+          "label": "Không muốn trả lời"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "A05",
+      "module": "A",
+      "subgroup": "YN",
+      "content": "Em có thể nêu một điều quan trọng với mình ngoài điểm số và thu nhập.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "1",
+          "label": "Hoàn toàn không đúng với em"
+        },
+        {
+          "value": "2",
+          "label": "Ít đúng"
+        },
+        {
+          "value": "3",
+          "label": "Phần nào đúng"
+        },
+        {
+          "value": "4",
+          "label": "Khá đúng"
+        },
+        {
+          "value": "5",
+          "label": "Rất đúng"
+        },
+        {
+          "value": "U",
+          "label": "Chưa rõ"
+        },
+        {
+          "value": "X",
+          "label": "Không muốn trả lời"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "A06",
+      "module": "A",
+      "subgroup": "YN",
+      "content": "Em có thể kể một việc nhỏ mình làm khiến cuộc sống của ai đó tốt hơn.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "1",
+          "label": "Hoàn toàn không đúng với em"
+        },
+        {
+          "value": "2",
+          "label": "Ít đúng"
+        },
+        {
+          "value": "3",
+          "label": "Phần nào đúng"
+        },
+        {
+          "value": "4",
+          "label": "Khá đúng"
+        },
+        {
+          "value": "5",
+          "label": "Rất đúng"
+        },
+        {
+          "value": "U",
+          "label": "Chưa rõ"
+        },
+        {
+          "value": "X",
+          "label": "Không muốn trả lời"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "A07",
+      "module": "A",
+      "subgroup": "YN",
+      "content": "Em đã nghĩ về một vấn đề trong cộng đồng mà mình muốn góp phần giải quyết.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "1",
+          "label": "Hoàn toàn không đúng với em"
+        },
+        {
+          "value": "2",
+          "label": "Ít đúng"
+        },
+        {
+          "value": "3",
+          "label": "Phần nào đúng"
+        },
+        {
+          "value": "4",
+          "label": "Khá đúng"
+        },
+        {
+          "value": "5",
+          "label": "Rất đúng"
+        },
+        {
+          "value": "U",
+          "label": "Chưa rõ"
+        },
+        {
+          "value": "X",
+          "label": "Không muốn trả lời"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "A08",
+      "module": "A",
+      "subgroup": "YN",
+      "content": "Em có thể mô tả một ngày sống mà mình thấy có ý nghĩa.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "1",
+          "label": "Hoàn toàn không đúng với em"
+        },
+        {
+          "value": "2",
+          "label": "Ít đúng"
+        },
+        {
+          "value": "3",
+          "label": "Phần nào đúng"
+        },
+        {
+          "value": "4",
+          "label": "Khá đúng"
+        },
+        {
+          "value": "5",
+          "label": "Rất đúng"
+        },
+        {
+          "value": "U",
+          "label": "Chưa rõ"
+        },
+        {
+          "value": "X",
+          "label": "Không muốn trả lời"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "A09",
+      "module": "A",
+      "subgroup": "TC",
+      "content": "Khi chưa chắc chắn về lựa chọn, em biết cách tìm thêm thông tin.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "1",
+          "label": "Hoàn toàn không đúng với em"
+        },
+        {
+          "value": "2",
+          "label": "Ít đúng"
+        },
+        {
+          "value": "3",
+          "label": "Phần nào đúng"
+        },
+        {
+          "value": "4",
+          "label": "Khá đúng"
+        },
+        {
+          "value": "5",
+          "label": "Rất đúng"
+        },
+        {
+          "value": "U",
+          "label": "Chưa rõ"
+        },
+        {
+          "value": "X",
+          "label": "Không muốn trả lời"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "A10",
+      "module": "A",
+      "subgroup": "TC",
+      "content": "Em có thể đặt một mục tiêu nhỏ do chính mình lựa chọn.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "1",
+          "label": "Hoàn toàn không đúng với em"
+        },
+        {
+          "value": "2",
+          "label": "Ít đúng"
+        },
+        {
+          "value": "3",
+          "label": "Phần nào đúng"
+        },
+        {
+          "value": "4",
+          "label": "Khá đúng"
+        },
+        {
+          "value": "5",
+          "label": "Rất đúng"
+        },
+        {
+          "value": "U",
+          "label": "Chưa rõ"
+        },
+        {
+          "value": "X",
+          "label": "Không muốn trả lời"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "A11",
+      "module": "A",
+      "subgroup": "TC",
+      "content": "Sau khi nhận phản hồi, em biết thử cách làm khác nếu cần.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "1",
+          "label": "Hoàn toàn không đúng với em"
+        },
+        {
+          "value": "2",
+          "label": "Ít đúng"
+        },
+        {
+          "value": "3",
+          "label": "Phần nào đúng"
+        },
+        {
+          "value": "4",
+          "label": "Khá đúng"
+        },
+        {
+          "value": "5",
+          "label": "Rất đúng"
+        },
+        {
+          "value": "U",
+          "label": "Chưa rõ"
+        },
+        {
+          "value": "X",
+          "label": "Không muốn trả lời"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "A12",
+      "module": "A",
+      "subgroup": "TC",
+      "content": "Em có thể bày tỏ mong muốn của mình với một người lớn đáng tin cậy.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "1",
+          "label": "Hoàn toàn không đúng với em"
+        },
+        {
+          "value": "2",
+          "label": "Ít đúng"
+        },
+        {
+          "value": "3",
+          "label": "Phần nào đúng"
+        },
+        {
+          "value": "4",
+          "label": "Khá đúng"
+        },
+        {
+          "value": "5",
+          "label": "Rất đúng"
+        },
+        {
+          "value": "U",
+          "label": "Chưa rõ"
+        },
+        {
+          "value": "X",
+          "label": "Không muốn trả lời"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "B01",
+      "module": "B",
+      "subgroup": "R",
+      "content": "Lắp ráp một mô hình hoặc vật dụng theo hướng dẫn.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "1",
+          "label": "Rất không thích"
+        },
+        {
+          "value": "2",
+          "label": "Không thích"
+        },
+        {
+          "value": "3",
+          "label": "Trung tính"
+        },
+        {
+          "value": "4",
+          "label": "Thích"
+        },
+        {
+          "value": "5",
+          "label": "Rất thích"
+        },
+        {
+          "value": "U",
+          "label": "Chưa biết hoạt động này/chưa thể hình dung"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "B02",
+      "module": "B",
+      "subgroup": "I",
+      "content": "Đặt giả thuyết để giải thích một hiện tượng tự nhiên.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "1",
+          "label": "Rất không thích"
+        },
+        {
+          "value": "2",
+          "label": "Không thích"
+        },
+        {
+          "value": "3",
+          "label": "Trung tính"
+        },
+        {
+          "value": "4",
+          "label": "Thích"
+        },
+        {
+          "value": "5",
+          "label": "Rất thích"
+        },
+        {
+          "value": "U",
+          "label": "Chưa biết hoạt động này/chưa thể hình dung"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "B03",
+      "module": "B",
+      "subgroup": "A",
+      "content": "Viết một câu chuyện hoặc kịch bản ngắn.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "1",
+          "label": "Rất không thích"
+        },
+        {
+          "value": "2",
+          "label": "Không thích"
+        },
+        {
+          "value": "3",
+          "label": "Trung tính"
+        },
+        {
+          "value": "4",
+          "label": "Thích"
+        },
+        {
+          "value": "5",
+          "label": "Rất thích"
+        },
+        {
+          "value": "U",
+          "label": "Chưa biết hoạt động này/chưa thể hình dung"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "B04",
+      "module": "B",
+      "subgroup": "S",
+      "content": "Hướng dẫn một bạn hiểu nội dung mà bạn đang gặp khó.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "1",
+          "label": "Rất không thích"
+        },
+        {
+          "value": "2",
+          "label": "Không thích"
+        },
+        {
+          "value": "3",
+          "label": "Trung tính"
+        },
+        {
+          "value": "4",
+          "label": "Thích"
+        },
+        {
+          "value": "5",
+          "label": "Rất thích"
+        },
+        {
+          "value": "U",
+          "label": "Chưa biết hoạt động này/chưa thể hình dung"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "B05",
+      "module": "B",
+      "subgroup": "E",
+      "content": "Đề xuất ý tưởng cho một hoạt động rồi mời người khác tham gia.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "1",
+          "label": "Rất không thích"
+        },
+        {
+          "value": "2",
+          "label": "Không thích"
+        },
+        {
+          "value": "3",
+          "label": "Trung tính"
+        },
+        {
+          "value": "4",
+          "label": "Thích"
+        },
+        {
+          "value": "5",
+          "label": "Rất thích"
+        },
+        {
+          "value": "U",
+          "label": "Chưa biết hoạt động này/chưa thể hình dung"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "B06",
+      "module": "B",
+      "subgroup": "C",
+      "content": "Sắp xếp hồ sơ hoặc tệp tài liệu để dễ tìm lại.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "1",
+          "label": "Rất không thích"
+        },
+        {
+          "value": "2",
+          "label": "Không thích"
+        },
+        {
+          "value": "3",
+          "label": "Trung tính"
+        },
+        {
+          "value": "4",
+          "label": "Thích"
+        },
+        {
+          "value": "5",
+          "label": "Rất thích"
+        },
+        {
+          "value": "U",
+          "label": "Chưa biết hoạt động này/chưa thể hình dung"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "B07",
+      "module": "B",
+      "subgroup": "I",
+      "content": "Tìm quy luật trong một bảng số liệu.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "1",
+          "label": "Rất không thích"
+        },
+        {
+          "value": "2",
+          "label": "Không thích"
+        },
+        {
+          "value": "3",
+          "label": "Trung tính"
+        },
+        {
+          "value": "4",
+          "label": "Thích"
+        },
+        {
+          "value": "5",
+          "label": "Rất thích"
+        },
+        {
+          "value": "U",
+          "label": "Chưa biết hoạt động này/chưa thể hình dung"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "B08",
+      "module": "B",
+      "subgroup": "A",
+      "content": "Thiết kế hình ảnh cho một thông điệp.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "1",
+          "label": "Rất không thích"
+        },
+        {
+          "value": "2",
+          "label": "Không thích"
+        },
+        {
+          "value": "3",
+          "label": "Trung tính"
+        },
+        {
+          "value": "4",
+          "label": "Thích"
+        },
+        {
+          "value": "5",
+          "label": "Rất thích"
+        },
+        {
+          "value": "U",
+          "label": "Chưa biết hoạt động này/chưa thể hình dung"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "B09",
+      "module": "B",
+      "subgroup": "S",
+      "content": "Lắng nghe để hiểu điều người khác đang cần.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "1",
+          "label": "Rất không thích"
+        },
+        {
+          "value": "2",
+          "label": "Không thích"
+        },
+        {
+          "value": "3",
+          "label": "Trung tính"
+        },
+        {
+          "value": "4",
+          "label": "Thích"
+        },
+        {
+          "value": "5",
+          "label": "Rất thích"
+        },
+        {
+          "value": "U",
+          "label": "Chưa biết hoạt động này/chưa thể hình dung"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "B10",
+      "module": "B",
+      "subgroup": "E",
+      "content": "Trình bày lý do thuyết phục người khác ủng hộ một dự án.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "1",
+          "label": "Rất không thích"
+        },
+        {
+          "value": "2",
+          "label": "Không thích"
+        },
+        {
+          "value": "3",
+          "label": "Trung tính"
+        },
+        {
+          "value": "4",
+          "label": "Thích"
+        },
+        {
+          "value": "5",
+          "label": "Rất thích"
+        },
+        {
+          "value": "U",
+          "label": "Chưa biết hoạt động này/chưa thể hình dung"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "B11",
+      "module": "B",
+      "subgroup": "C",
+      "content": "Lập bảng theo dõi chi phí của một hoạt động.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "1",
+          "label": "Rất không thích"
+        },
+        {
+          "value": "2",
+          "label": "Không thích"
+        },
+        {
+          "value": "3",
+          "label": "Trung tính"
+        },
+        {
+          "value": "4",
+          "label": "Thích"
+        },
+        {
+          "value": "5",
+          "label": "Rất thích"
+        },
+        {
+          "value": "U",
+          "label": "Chưa biết hoạt động này/chưa thể hình dung"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "B12",
+      "module": "B",
+      "subgroup": "R",
+      "content": "Tìm hiểu nguyên nhân một đồ vật bị hỏng.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "1",
+          "label": "Rất không thích"
+        },
+        {
+          "value": "2",
+          "label": "Không thích"
+        },
+        {
+          "value": "3",
+          "label": "Trung tính"
+        },
+        {
+          "value": "4",
+          "label": "Thích"
+        },
+        {
+          "value": "5",
+          "label": "Rất thích"
+        },
+        {
+          "value": "U",
+          "label": "Chưa biết hoạt động này/chưa thể hình dung"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "B13",
+      "module": "B",
+      "subgroup": "A",
+      "content": "Thử nhiều cách thể hiện một ý tưởng bằng màu sắc, âm thanh hoặc chuyển động.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "1",
+          "label": "Rất không thích"
+        },
+        {
+          "value": "2",
+          "label": "Không thích"
+        },
+        {
+          "value": "3",
+          "label": "Trung tính"
+        },
+        {
+          "value": "4",
+          "label": "Thích"
+        },
+        {
+          "value": "5",
+          "label": "Rất thích"
+        },
+        {
+          "value": "U",
+          "label": "Chưa biết hoạt động này/chưa thể hình dung"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "B14",
+      "module": "B",
+      "subgroup": "S",
+      "content": "Hỗ trợ người mới tham gia một hoạt động nhóm.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "1",
+          "label": "Rất không thích"
+        },
+        {
+          "value": "2",
+          "label": "Không thích"
+        },
+        {
+          "value": "3",
+          "label": "Trung tính"
+        },
+        {
+          "value": "4",
+          "label": "Thích"
+        },
+        {
+          "value": "5",
+          "label": "Rất thích"
+        },
+        {
+          "value": "U",
+          "label": "Chưa biết hoạt động này/chưa thể hình dung"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "B15",
+      "module": "B",
+      "subgroup": "E",
+      "content": "Điều phối một nhóm để đạt mục tiêu chung.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "1",
+          "label": "Rất không thích"
+        },
+        {
+          "value": "2",
+          "label": "Không thích"
+        },
+        {
+          "value": "3",
+          "label": "Trung tính"
+        },
+        {
+          "value": "4",
+          "label": "Thích"
+        },
+        {
+          "value": "5",
+          "label": "Rất thích"
+        },
+        {
+          "value": "U",
+          "label": "Chưa biết hoạt động này/chưa thể hình dung"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "B16",
+      "module": "B",
+      "subgroup": "C",
+      "content": "Kiểm tra dữ liệu để phát hiện lỗi nhập liệu.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "1",
+          "label": "Rất không thích"
+        },
+        {
+          "value": "2",
+          "label": "Không thích"
+        },
+        {
+          "value": "3",
+          "label": "Trung tính"
+        },
+        {
+          "value": "4",
+          "label": "Thích"
+        },
+        {
+          "value": "5",
+          "label": "Rất thích"
+        },
+        {
+          "value": "U",
+          "label": "Chưa biết hoạt động này/chưa thể hình dung"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "B17",
+      "module": "B",
+      "subgroup": "R",
+      "content": "Chăm sóc cây trồng và theo dõi sự phát triển của cây.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "1",
+          "label": "Rất không thích"
+        },
+        {
+          "value": "2",
+          "label": "Không thích"
+        },
+        {
+          "value": "3",
+          "label": "Trung tính"
+        },
+        {
+          "value": "4",
+          "label": "Thích"
+        },
+        {
+          "value": "5",
+          "label": "Rất thích"
+        },
+        {
+          "value": "U",
+          "label": "Chưa biết hoạt động này/chưa thể hình dung"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "B18",
+      "module": "B",
+      "subgroup": "I",
+      "content": "Đọc tài liệu để giải đáp một câu hỏi khoa học.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "1",
+          "label": "Rất không thích"
+        },
+        {
+          "value": "2",
+          "label": "Không thích"
+        },
+        {
+          "value": "3",
+          "label": "Trung tính"
+        },
+        {
+          "value": "4",
+          "label": "Thích"
+        },
+        {
+          "value": "5",
+          "label": "Rất thích"
+        },
+        {
+          "value": "U",
+          "label": "Chưa biết hoạt động này/chưa thể hình dung"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "B19",
+      "module": "B",
+      "subgroup": "S",
+      "content": "Cùng tổ chức hoạt động phục vụ cộng đồng.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "1",
+          "label": "Rất không thích"
+        },
+        {
+          "value": "2",
+          "label": "Không thích"
+        },
+        {
+          "value": "3",
+          "label": "Trung tính"
+        },
+        {
+          "value": "4",
+          "label": "Thích"
+        },
+        {
+          "value": "5",
+          "label": "Rất thích"
+        },
+        {
+          "value": "U",
+          "label": "Chưa biết hoạt động này/chưa thể hình dung"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "B20",
+      "module": "B",
+      "subgroup": "E",
+      "content": "Thử xây dựng một phương án kinh doanh nhỏ giả định.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "1",
+          "label": "Rất không thích"
+        },
+        {
+          "value": "2",
+          "label": "Không thích"
+        },
+        {
+          "value": "3",
+          "label": "Trung tính"
+        },
+        {
+          "value": "4",
+          "label": "Thích"
+        },
+        {
+          "value": "5",
+          "label": "Rất thích"
+        },
+        {
+          "value": "U",
+          "label": "Chưa biết hoạt động này/chưa thể hình dung"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "B21",
+      "module": "B",
+      "subgroup": "C",
+      "content": "Lập lịch và theo dõi thời hạn của nhiều nhiệm vụ.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "1",
+          "label": "Rất không thích"
+        },
+        {
+          "value": "2",
+          "label": "Không thích"
+        },
+        {
+          "value": "3",
+          "label": "Trung tính"
+        },
+        {
+          "value": "4",
+          "label": "Thích"
+        },
+        {
+          "value": "5",
+          "label": "Rất thích"
+        },
+        {
+          "value": "U",
+          "label": "Chưa biết hoạt động này/chưa thể hình dung"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "B22",
+      "module": "B",
+      "subgroup": "R",
+      "content": "Đo đạc, cắt ghép vật liệu để tạo một sản phẩm.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "1",
+          "label": "Rất không thích"
+        },
+        {
+          "value": "2",
+          "label": "Không thích"
+        },
+        {
+          "value": "3",
+          "label": "Trung tính"
+        },
+        {
+          "value": "4",
+          "label": "Thích"
+        },
+        {
+          "value": "5",
+          "label": "Rất thích"
+        },
+        {
+          "value": "U",
+          "label": "Chưa biết hoạt động này/chưa thể hình dung"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "B23",
+      "module": "B",
+      "subgroup": "I",
+      "content": "Thiết kế một thí nghiệm nhỏ có đối chứng.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "1",
+          "label": "Rất không thích"
+        },
+        {
+          "value": "2",
+          "label": "Không thích"
+        },
+        {
+          "value": "3",
+          "label": "Trung tính"
+        },
+        {
+          "value": "4",
+          "label": "Thích"
+        },
+        {
+          "value": "5",
+          "label": "Rất thích"
+        },
+        {
+          "value": "U",
+          "label": "Chưa biết hoạt động này/chưa thể hình dung"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "B24",
+      "module": "B",
+      "subgroup": "A",
+      "content": "Sáng tạo một sản phẩm thủ công hoặc tác phẩm số.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "1",
+          "label": "Rất không thích"
+        },
+        {
+          "value": "2",
+          "label": "Không thích"
+        },
+        {
+          "value": "3",
+          "label": "Trung tính"
+        },
+        {
+          "value": "4",
+          "label": "Thích"
+        },
+        {
+          "value": "5",
+          "label": "Rất thích"
+        },
+        {
+          "value": "U",
+          "label": "Chưa biết hoạt động này/chưa thể hình dung"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "B25",
+      "module": "B",
+      "subgroup": "E",
+      "content": "Thương lượng để thống nhất cách chia nguồn lực.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "1",
+          "label": "Rất không thích"
+        },
+        {
+          "value": "2",
+          "label": "Không thích"
+        },
+        {
+          "value": "3",
+          "label": "Trung tính"
+        },
+        {
+          "value": "4",
+          "label": "Thích"
+        },
+        {
+          "value": "5",
+          "label": "Rất thích"
+        },
+        {
+          "value": "U",
+          "label": "Chưa biết hoạt động này/chưa thể hình dung"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "B26",
+      "module": "B",
+      "subgroup": "C",
+      "content": "Phân loại thông tin theo tiêu chí đã xác định.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "1",
+          "label": "Rất không thích"
+        },
+        {
+          "value": "2",
+          "label": "Không thích"
+        },
+        {
+          "value": "3",
+          "label": "Trung tính"
+        },
+        {
+          "value": "4",
+          "label": "Thích"
+        },
+        {
+          "value": "5",
+          "label": "Rất thích"
+        },
+        {
+          "value": "U",
+          "label": "Chưa biết hoạt động này/chưa thể hình dung"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "B27",
+      "module": "B",
+      "subgroup": "R",
+      "content": "Thử cách vận hành một thiết bị mô phỏng hoặc dụng cụ an toàn.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "1",
+          "label": "Rất không thích"
+        },
+        {
+          "value": "2",
+          "label": "Không thích"
+        },
+        {
+          "value": "3",
+          "label": "Trung tính"
+        },
+        {
+          "value": "4",
+          "label": "Thích"
+        },
+        {
+          "value": "5",
+          "label": "Rất thích"
+        },
+        {
+          "value": "U",
+          "label": "Chưa biết hoạt động này/chưa thể hình dung"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "B28",
+      "module": "B",
+      "subgroup": "I",
+      "content": "Giải một bài toán cần lập luận nhiều bước.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "1",
+          "label": "Rất không thích"
+        },
+        {
+          "value": "2",
+          "label": "Không thích"
+        },
+        {
+          "value": "3",
+          "label": "Trung tính"
+        },
+        {
+          "value": "4",
+          "label": "Thích"
+        },
+        {
+          "value": "5",
+          "label": "Rất thích"
+        },
+        {
+          "value": "U",
+          "label": "Chưa biết hoạt động này/chưa thể hình dung"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "B29",
+      "module": "B",
+      "subgroup": "A",
+      "content": "Biên tập một đoạn phim để truyền tải cảm xúc.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "1",
+          "label": "Rất không thích"
+        },
+        {
+          "value": "2",
+          "label": "Không thích"
+        },
+        {
+          "value": "3",
+          "label": "Trung tính"
+        },
+        {
+          "value": "4",
+          "label": "Thích"
+        },
+        {
+          "value": "5",
+          "label": "Rất thích"
+        },
+        {
+          "value": "U",
+          "label": "Chưa biết hoạt động này/chưa thể hình dung"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "B30",
+      "module": "B",
+      "subgroup": "S",
+      "content": "Giải thích thông tin hữu ích cho người chưa biết về chủ đề đó.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "1",
+          "label": "Rất không thích"
+        },
+        {
+          "value": "2",
+          "label": "Không thích"
+        },
+        {
+          "value": "3",
+          "label": "Trung tính"
+        },
+        {
+          "value": "4",
+          "label": "Thích"
+        },
+        {
+          "value": "5",
+          "label": "Rất thích"
+        },
+        {
+          "value": "U",
+          "label": "Chưa biết hoạt động này/chưa thể hình dung"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "B31",
+      "module": "B",
+      "subgroup": "C",
+      "content": "Hoàn thiện một bảng kiểm để công việc không bỏ sót bước.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "1",
+          "label": "Rất không thích"
+        },
+        {
+          "value": "2",
+          "label": "Không thích"
+        },
+        {
+          "value": "3",
+          "label": "Trung tính"
+        },
+        {
+          "value": "4",
+          "label": "Thích"
+        },
+        {
+          "value": "5",
+          "label": "Rất thích"
+        },
+        {
+          "value": "U",
+          "label": "Chưa biết hoạt động này/chưa thể hình dung"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "B32",
+      "module": "B",
+      "subgroup": "R",
+      "content": "Quan sát thực địa để tìm cách cải thiện một quy trình sản xuất.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "1",
+          "label": "Rất không thích"
+        },
+        {
+          "value": "2",
+          "label": "Không thích"
+        },
+        {
+          "value": "3",
+          "label": "Trung tính"
+        },
+        {
+          "value": "4",
+          "label": "Thích"
+        },
+        {
+          "value": "5",
+          "label": "Rất thích"
+        },
+        {
+          "value": "U",
+          "label": "Chưa biết hoạt động này/chưa thể hình dung"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "B33",
+      "module": "B",
+      "subgroup": "I",
+      "content": "So sánh các cách giải thích bằng chứng khác nhau.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "1",
+          "label": "Rất không thích"
+        },
+        {
+          "value": "2",
+          "label": "Không thích"
+        },
+        {
+          "value": "3",
+          "label": "Trung tính"
+        },
+        {
+          "value": "4",
+          "label": "Thích"
+        },
+        {
+          "value": "5",
+          "label": "Rất thích"
+        },
+        {
+          "value": "U",
+          "label": "Chưa biết hoạt động này/chưa thể hình dung"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "B34",
+      "module": "B",
+      "subgroup": "A",
+      "content": "Tìm cách trình bày một chủ đề theo phong cách riêng.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "1",
+          "label": "Rất không thích"
+        },
+        {
+          "value": "2",
+          "label": "Không thích"
+        },
+        {
+          "value": "3",
+          "label": "Trung tính"
+        },
+        {
+          "value": "4",
+          "label": "Thích"
+        },
+        {
+          "value": "5",
+          "label": "Rất thích"
+        },
+        {
+          "value": "U",
+          "label": "Chưa biết hoạt động này/chưa thể hình dung"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "B35",
+      "module": "B",
+      "subgroup": "S",
+      "content": "Cùng người khác tìm cách giải quyết bất đồng bằng trao đổi.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "1",
+          "label": "Rất không thích"
+        },
+        {
+          "value": "2",
+          "label": "Không thích"
+        },
+        {
+          "value": "3",
+          "label": "Trung tính"
+        },
+        {
+          "value": "4",
+          "label": "Thích"
+        },
+        {
+          "value": "5",
+          "label": "Rất thích"
+        },
+        {
+          "value": "U",
+          "label": "Chưa biết hoạt động này/chưa thể hình dung"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "B36",
+      "module": "B",
+      "subgroup": "E",
+      "content": "Giới thiệu một sản phẩm với nhóm người có nhu cầu.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "1",
+          "label": "Rất không thích"
+        },
+        {
+          "value": "2",
+          "label": "Không thích"
+        },
+        {
+          "value": "3",
+          "label": "Trung tính"
+        },
+        {
+          "value": "4",
+          "label": "Thích"
+        },
+        {
+          "value": "5",
+          "label": "Rất thích"
+        },
+        {
+          "value": "U",
+          "label": "Chưa biết hoạt động này/chưa thể hình dung"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "C01",
+      "module": "C",
+      "subgroup": "TT",
+      "content": "Em rút ra kết luận từ bảng số liệu đơn giản và giải thích lý do.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "0",
+          "label": "Đã thử nhưng chưa làm được"
+        },
+        {
+          "value": "1",
+          "label": "Làm với nhiều hướng dẫn"
+        },
+        {
+          "value": "2",
+          "label": "Làm với một phần hỗ trợ"
+        },
+        {
+          "value": "3",
+          "label": "Tự làm được"
+        },
+        {
+          "value": "4",
+          "label": "Tự làm được và giải thích/chuyển sang nhiệm vụ tương tự"
+        },
+        {
+          "value": "U",
+          "label": "Chưa từng thử/chưa đủ thông tin"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "C02",
+      "module": "C",
+      "subgroup": "TH",
+      "content": "Em làm theo hướng dẫn để tạo hoặc lắp một sản phẩm an toàn.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "0",
+          "label": "Đã thử nhưng chưa làm được"
+        },
+        {
+          "value": "1",
+          "label": "Làm với nhiều hướng dẫn"
+        },
+        {
+          "value": "2",
+          "label": "Làm với một phần hỗ trợ"
+        },
+        {
+          "value": "3",
+          "label": "Tự làm được"
+        },
+        {
+          "value": "4",
+          "label": "Tự làm được và giải thích/chuyển sang nhiệm vụ tương tự"
+        },
+        {
+          "value": "U",
+          "label": "Chưa từng thử/chưa đủ thông tin"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "C03",
+      "module": "C",
+      "subgroup": "ST",
+      "content": "Em tạo ra nhiều ý tưởng khác nhau cho một nhiệm vụ.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "0",
+          "label": "Đã thử nhưng chưa làm được"
+        },
+        {
+          "value": "1",
+          "label": "Làm với nhiều hướng dẫn"
+        },
+        {
+          "value": "2",
+          "label": "Làm với một phần hỗ trợ"
+        },
+        {
+          "value": "3",
+          "label": "Tự làm được"
+        },
+        {
+          "value": "4",
+          "label": "Tự làm được và giải thích/chuyển sang nhiệm vụ tương tự"
+        },
+        {
+          "value": "U",
+          "label": "Chưa từng thử/chưa đủ thông tin"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "C04",
+      "module": "C",
+      "subgroup": "GT",
+      "content": "Em diễn đạt ý kiến để người nghe hiểu được nội dung chính.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "0",
+          "label": "Đã thử nhưng chưa làm được"
+        },
+        {
+          "value": "1",
+          "label": "Làm với nhiều hướng dẫn"
+        },
+        {
+          "value": "2",
+          "label": "Làm với một phần hỗ trợ"
+        },
+        {
+          "value": "3",
+          "label": "Tự làm được"
+        },
+        {
+          "value": "4",
+          "label": "Tự làm được và giải thích/chuyển sang nhiệm vụ tương tự"
+        },
+        {
+          "value": "U",
+          "label": "Chưa từng thử/chưa đủ thông tin"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "C05",
+      "module": "C",
+      "subgroup": "TC",
+      "content": "Em lập danh sách việc cần làm theo thứ tự ưu tiên.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "0",
+          "label": "Đã thử nhưng chưa làm được"
+        },
+        {
+          "value": "1",
+          "label": "Làm với nhiều hướng dẫn"
+        },
+        {
+          "value": "2",
+          "label": "Làm với một phần hỗ trợ"
+        },
+        {
+          "value": "3",
+          "label": "Tự làm được"
+        },
+        {
+          "value": "4",
+          "label": "Tự làm được và giải thích/chuyển sang nhiệm vụ tương tự"
+        },
+        {
+          "value": "U",
+          "label": "Chưa từng thử/chưa đủ thông tin"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "C06",
+      "module": "C",
+      "subgroup": "SO",
+      "content": "Em tìm thông tin từ hai nguồn và đối chiếu điểm khác nhau.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "0",
+          "label": "Đã thử nhưng chưa làm được"
+        },
+        {
+          "value": "1",
+          "label": "Làm với nhiều hướng dẫn"
+        },
+        {
+          "value": "2",
+          "label": "Làm với một phần hỗ trợ"
+        },
+        {
+          "value": "3",
+          "label": "Tự làm được"
+        },
+        {
+          "value": "4",
+          "label": "Tự làm được và giải thích/chuyển sang nhiệm vụ tương tự"
+        },
+        {
+          "value": "U",
+          "label": "Chưa từng thử/chưa đủ thông tin"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "C07",
+      "module": "C",
+      "subgroup": "TT",
+      "content": "Em chia một vấn đề phức tạp thành những phần nhỏ để xử lý.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "0",
+          "label": "Đã thử nhưng chưa làm được"
+        },
+        {
+          "value": "1",
+          "label": "Làm với nhiều hướng dẫn"
+        },
+        {
+          "value": "2",
+          "label": "Làm với một phần hỗ trợ"
+        },
+        {
+          "value": "3",
+          "label": "Tự làm được"
+        },
+        {
+          "value": "4",
+          "label": "Tự làm được và giải thích/chuyển sang nhiệm vụ tương tự"
+        },
+        {
+          "value": "U",
+          "label": "Chưa từng thử/chưa đủ thông tin"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "C08",
+      "module": "C",
+      "subgroup": "TH",
+      "content": "Em phát hiện điểm chưa ổn của một mô hình qua thử nghiệm.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "0",
+          "label": "Đã thử nhưng chưa làm được"
+        },
+        {
+          "value": "1",
+          "label": "Làm với nhiều hướng dẫn"
+        },
+        {
+          "value": "2",
+          "label": "Làm với một phần hỗ trợ"
+        },
+        {
+          "value": "3",
+          "label": "Tự làm được"
+        },
+        {
+          "value": "4",
+          "label": "Tự làm được và giải thích/chuyển sang nhiệm vụ tương tự"
+        },
+        {
+          "value": "U",
+          "label": "Chưa từng thử/chưa đủ thông tin"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "C09",
+      "module": "C",
+      "subgroup": "ST",
+      "content": "Em chuyển một ý tưởng thành bản nháp hoặc sản phẩm thử.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "0",
+          "label": "Đã thử nhưng chưa làm được"
+        },
+        {
+          "value": "1",
+          "label": "Làm với nhiều hướng dẫn"
+        },
+        {
+          "value": "2",
+          "label": "Làm với một phần hỗ trợ"
+        },
+        {
+          "value": "3",
+          "label": "Tự làm được"
+        },
+        {
+          "value": "4",
+          "label": "Tự làm được và giải thích/chuyển sang nhiệm vụ tương tự"
+        },
+        {
+          "value": "U",
+          "label": "Chưa từng thử/chưa đủ thông tin"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "C10",
+      "module": "C",
+      "subgroup": "GT",
+      "content": "Em lắng nghe và nhắc lại ý chính của một người khác.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "0",
+          "label": "Đã thử nhưng chưa làm được"
+        },
+        {
+          "value": "1",
+          "label": "Làm với nhiều hướng dẫn"
+        },
+        {
+          "value": "2",
+          "label": "Làm với một phần hỗ trợ"
+        },
+        {
+          "value": "3",
+          "label": "Tự làm được"
+        },
+        {
+          "value": "4",
+          "label": "Tự làm được và giải thích/chuyển sang nhiệm vụ tương tự"
+        },
+        {
+          "value": "U",
+          "label": "Chưa từng thử/chưa đủ thông tin"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "C11",
+      "module": "C",
+      "subgroup": "TC",
+      "content": "Em theo dõi tiến độ để hoàn thành một nhiệm vụ đúng hạn.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "0",
+          "label": "Đã thử nhưng chưa làm được"
+        },
+        {
+          "value": "1",
+          "label": "Làm với nhiều hướng dẫn"
+        },
+        {
+          "value": "2",
+          "label": "Làm với một phần hỗ trợ"
+        },
+        {
+          "value": "3",
+          "label": "Tự làm được"
+        },
+        {
+          "value": "4",
+          "label": "Tự làm được và giải thích/chuyển sang nhiệm vụ tương tự"
+        },
+        {
+          "value": "U",
+          "label": "Chưa từng thử/chưa đủ thông tin"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "C12",
+      "module": "C",
+      "subgroup": "SO",
+      "content": "Em dùng công cụ số để tạo tài liệu, bảng hoặc sản phẩm học tập.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "0",
+          "label": "Đã thử nhưng chưa làm được"
+        },
+        {
+          "value": "1",
+          "label": "Làm với nhiều hướng dẫn"
+        },
+        {
+          "value": "2",
+          "label": "Làm với một phần hỗ trợ"
+        },
+        {
+          "value": "3",
+          "label": "Tự làm được"
+        },
+        {
+          "value": "4",
+          "label": "Tự làm được và giải thích/chuyển sang nhiệm vụ tương tự"
+        },
+        {
+          "value": "U",
+          "label": "Chưa từng thử/chưa đủ thông tin"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "C13",
+      "module": "C",
+      "subgroup": "TT",
+      "content": "Em kiểm tra lại một kết luận bằng bằng chứng khác.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "0",
+          "label": "Đã thử nhưng chưa làm được"
+        },
+        {
+          "value": "1",
+          "label": "Làm với nhiều hướng dẫn"
+        },
+        {
+          "value": "2",
+          "label": "Làm với một phần hỗ trợ"
+        },
+        {
+          "value": "3",
+          "label": "Tự làm được"
+        },
+        {
+          "value": "4",
+          "label": "Tự làm được và giải thích/chuyển sang nhiệm vụ tương tự"
+        },
+        {
+          "value": "U",
+          "label": "Chưa từng thử/chưa đủ thông tin"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "C14",
+      "module": "C",
+      "subgroup": "TH",
+      "content": "Em điều chỉnh thao tác sau khi sản phẩm chưa đạt yêu cầu.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "0",
+          "label": "Đã thử nhưng chưa làm được"
+        },
+        {
+          "value": "1",
+          "label": "Làm với nhiều hướng dẫn"
+        },
+        {
+          "value": "2",
+          "label": "Làm với một phần hỗ trợ"
+        },
+        {
+          "value": "3",
+          "label": "Tự làm được"
+        },
+        {
+          "value": "4",
+          "label": "Tự làm được và giải thích/chuyển sang nhiệm vụ tương tự"
+        },
+        {
+          "value": "U",
+          "label": "Chưa từng thử/chưa đủ thông tin"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "C15",
+      "module": "C",
+      "subgroup": "ST",
+      "content": "Em chỉnh sửa sản phẩm sáng tạo sau khi nhận góp ý.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "0",
+          "label": "Đã thử nhưng chưa làm được"
+        },
+        {
+          "value": "1",
+          "label": "Làm với nhiều hướng dẫn"
+        },
+        {
+          "value": "2",
+          "label": "Làm với một phần hỗ trợ"
+        },
+        {
+          "value": "3",
+          "label": "Tự làm được"
+        },
+        {
+          "value": "4",
+          "label": "Tự làm được và giải thích/chuyển sang nhiệm vụ tương tự"
+        },
+        {
+          "value": "U",
+          "label": "Chưa từng thử/chưa đủ thông tin"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "C16",
+      "module": "C",
+      "subgroup": "GT",
+      "content": "Em phối hợp với bạn để hoàn thành phần việc được giao.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "0",
+          "label": "Đã thử nhưng chưa làm được"
+        },
+        {
+          "value": "1",
+          "label": "Làm với nhiều hướng dẫn"
+        },
+        {
+          "value": "2",
+          "label": "Làm với một phần hỗ trợ"
+        },
+        {
+          "value": "3",
+          "label": "Tự làm được"
+        },
+        {
+          "value": "4",
+          "label": "Tự làm được và giải thích/chuyển sang nhiệm vụ tương tự"
+        },
+        {
+          "value": "U",
+          "label": "Chưa từng thử/chưa đủ thông tin"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "C17",
+      "module": "C",
+      "subgroup": "TC",
+      "content": "Em rà soát sản phẩm để phát hiện sai sót trước khi nộp.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "0",
+          "label": "Đã thử nhưng chưa làm được"
+        },
+        {
+          "value": "1",
+          "label": "Làm với nhiều hướng dẫn"
+        },
+        {
+          "value": "2",
+          "label": "Làm với một phần hỗ trợ"
+        },
+        {
+          "value": "3",
+          "label": "Tự làm được"
+        },
+        {
+          "value": "4",
+          "label": "Tự làm được và giải thích/chuyển sang nhiệm vụ tương tự"
+        },
+        {
+          "value": "U",
+          "label": "Chưa từng thử/chưa đủ thông tin"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "C18",
+      "module": "C",
+      "subgroup": "SO",
+      "content": "Em kiểm tra thông tin do AI hoặc công cụ tìm kiếm cung cấp trước khi sử dụng.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "0",
+          "label": "Đã thử nhưng chưa làm được"
+        },
+        {
+          "value": "1",
+          "label": "Làm với nhiều hướng dẫn"
+        },
+        {
+          "value": "2",
+          "label": "Làm với một phần hỗ trợ"
+        },
+        {
+          "value": "3",
+          "label": "Tự làm được"
+        },
+        {
+          "value": "4",
+          "label": "Tự làm được và giải thích/chuyển sang nhiệm vụ tương tự"
+        },
+        {
+          "value": "U",
+          "label": "Chưa từng thử/chưa đủ thông tin"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "C19",
+      "module": "C",
+      "subgroup": "TT",
+      "content": "Em giải thích được vì sao cách giải của mình có thể đúng.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "0",
+          "label": "Đã thử nhưng chưa làm được"
+        },
+        {
+          "value": "1",
+          "label": "Làm với nhiều hướng dẫn"
+        },
+        {
+          "value": "2",
+          "label": "Làm với một phần hỗ trợ"
+        },
+        {
+          "value": "3",
+          "label": "Tự làm được"
+        },
+        {
+          "value": "4",
+          "label": "Tự làm được và giải thích/chuyển sang nhiệm vụ tương tự"
+        },
+        {
+          "value": "U",
+          "label": "Chưa từng thử/chưa đủ thông tin"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "C20",
+      "module": "C",
+      "subgroup": "TH",
+      "content": "Em sử dụng công cụ phù hợp để thực hiện một nhiệm vụ thực hành.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "0",
+          "label": "Đã thử nhưng chưa làm được"
+        },
+        {
+          "value": "1",
+          "label": "Làm với nhiều hướng dẫn"
+        },
+        {
+          "value": "2",
+          "label": "Làm với một phần hỗ trợ"
+        },
+        {
+          "value": "3",
+          "label": "Tự làm được"
+        },
+        {
+          "value": "4",
+          "label": "Tự làm được và giải thích/chuyển sang nhiệm vụ tương tự"
+        },
+        {
+          "value": "U",
+          "label": "Chưa từng thử/chưa đủ thông tin"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "C21",
+      "module": "C",
+      "subgroup": "ST",
+      "content": "Em trình bày thông tin theo cách trực quan dễ hiểu.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "0",
+          "label": "Đã thử nhưng chưa làm được"
+        },
+        {
+          "value": "1",
+          "label": "Làm với nhiều hướng dẫn"
+        },
+        {
+          "value": "2",
+          "label": "Làm với một phần hỗ trợ"
+        },
+        {
+          "value": "3",
+          "label": "Tự làm được"
+        },
+        {
+          "value": "4",
+          "label": "Tự làm được và giải thích/chuyển sang nhiệm vụ tương tự"
+        },
+        {
+          "value": "U",
+          "label": "Chưa từng thử/chưa đủ thông tin"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "C22",
+      "module": "C",
+      "subgroup": "GT",
+      "content": "Em trao đổi bình tĩnh khi nhóm có quan điểm khác nhau.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "0",
+          "label": "Đã thử nhưng chưa làm được"
+        },
+        {
+          "value": "1",
+          "label": "Làm với nhiều hướng dẫn"
+        },
+        {
+          "value": "2",
+          "label": "Làm với một phần hỗ trợ"
+        },
+        {
+          "value": "3",
+          "label": "Tự làm được"
+        },
+        {
+          "value": "4",
+          "label": "Tự làm được và giải thích/chuyển sang nhiệm vụ tương tự"
+        },
+        {
+          "value": "U",
+          "label": "Chưa từng thử/chưa đủ thông tin"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "C23",
+      "module": "C",
+      "subgroup": "TC",
+      "content": "Em phân chia công việc theo nguồn lực và thời gian thực có.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "0",
+          "label": "Đã thử nhưng chưa làm được"
+        },
+        {
+          "value": "1",
+          "label": "Làm với nhiều hướng dẫn"
+        },
+        {
+          "value": "2",
+          "label": "Làm với một phần hỗ trợ"
+        },
+        {
+          "value": "3",
+          "label": "Tự làm được"
+        },
+        {
+          "value": "4",
+          "label": "Tự làm được và giải thích/chuyển sang nhiệm vụ tương tự"
+        },
+        {
+          "value": "U",
+          "label": "Chưa từng thử/chưa đủ thông tin"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "C24",
+      "module": "C",
+      "subgroup": "SO",
+      "content": "Em bảo vệ thông tin cá nhân khi dùng một dịch vụ trực tuyến.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "0",
+          "label": "Đã thử nhưng chưa làm được"
+        },
+        {
+          "value": "1",
+          "label": "Làm với nhiều hướng dẫn"
+        },
+        {
+          "value": "2",
+          "label": "Làm với một phần hỗ trợ"
+        },
+        {
+          "value": "3",
+          "label": "Tự làm được"
+        },
+        {
+          "value": "4",
+          "label": "Tự làm được và giải thích/chuyển sang nhiệm vụ tương tự"
+        },
+        {
+          "value": "U",
+          "label": "Chưa từng thử/chưa đủ thông tin"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "D01",
+      "module": "D",
+      "subgroup": null,
+      "content": "Đóng góp cho người khác hoặc cộng đồng.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "0",
+          "label": "Hiện không quan trọng"
+        },
+        {
+          "value": "1",
+          "label": "Ít quan trọng"
+        },
+        {
+          "value": "2",
+          "label": "Tương đối quan trọng"
+        },
+        {
+          "value": "3",
+          "label": "Quan trọng"
+        },
+        {
+          "value": "4",
+          "label": "Rất quan trọng"
+        },
+        {
+          "value": "U",
+          "label": "Chưa rõ"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "D02",
+      "module": "D",
+      "subgroup": null,
+      "content": "Có cơ hội học hỏi và phát triển bản thân.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "0",
+          "label": "Hiện không quan trọng"
+        },
+        {
+          "value": "1",
+          "label": "Ít quan trọng"
+        },
+        {
+          "value": "2",
+          "label": "Tương đối quan trọng"
+        },
+        {
+          "value": "3",
+          "label": "Quan trọng"
+        },
+        {
+          "value": "4",
+          "label": "Rất quan trọng"
+        },
+        {
+          "value": "U",
+          "label": "Chưa rõ"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "D03",
+      "module": "D",
+      "subgroup": null,
+      "content": "Có thu nhập đủ đáp ứng nhu cầu của bản thân và gia đình.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "0",
+          "label": "Hiện không quan trọng"
+        },
+        {
+          "value": "1",
+          "label": "Ít quan trọng"
+        },
+        {
+          "value": "2",
+          "label": "Tương đối quan trọng"
+        },
+        {
+          "value": "3",
+          "label": "Quan trọng"
+        },
+        {
+          "value": "4",
+          "label": "Rất quan trọng"
+        },
+        {
+          "value": "U",
+          "label": "Chưa rõ"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "D04",
+      "module": "D",
+      "subgroup": null,
+      "content": "Có việc làm tương đối ổn định.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "0",
+          "label": "Hiện không quan trọng"
+        },
+        {
+          "value": "1",
+          "label": "Ít quan trọng"
+        },
+        {
+          "value": "2",
+          "label": "Tương đối quan trọng"
+        },
+        {
+          "value": "3",
+          "label": "Quan trọng"
+        },
+        {
+          "value": "4",
+          "label": "Rất quan trọng"
+        },
+        {
+          "value": "U",
+          "label": "Chưa rõ"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "D05",
+      "module": "D",
+      "subgroup": null,
+      "content": "Có quyền chủ động trong cách thực hiện công việc.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "0",
+          "label": "Hiện không quan trọng"
+        },
+        {
+          "value": "1",
+          "label": "Ít quan trọng"
+        },
+        {
+          "value": "2",
+          "label": "Tương đối quan trọng"
+        },
+        {
+          "value": "3",
+          "label": "Quan trọng"
+        },
+        {
+          "value": "4",
+          "label": "Rất quan trọng"
+        },
+        {
+          "value": "U",
+          "label": "Chưa rõ"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "D06",
+      "module": "D",
+      "subgroup": null,
+      "content": "Có cơ hội sáng tạo và thử nghiệm ý tưởng.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "0",
+          "label": "Hiện không quan trọng"
+        },
+        {
+          "value": "1",
+          "label": "Ít quan trọng"
+        },
+        {
+          "value": "2",
+          "label": "Tương đối quan trọng"
+        },
+        {
+          "value": "3",
+          "label": "Quan trọng"
+        },
+        {
+          "value": "4",
+          "label": "Rất quan trọng"
+        },
+        {
+          "value": "U",
+          "label": "Chưa rõ"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "D07",
+      "module": "D",
+      "subgroup": null,
+      "content": "Có thời gian cho sức khỏe, gia đình và đời sống riêng.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "0",
+          "label": "Hiện không quan trọng"
+        },
+        {
+          "value": "1",
+          "label": "Ít quan trọng"
+        },
+        {
+          "value": "2",
+          "label": "Tương đối quan trọng"
+        },
+        {
+          "value": "3",
+          "label": "Quan trọng"
+        },
+        {
+          "value": "4",
+          "label": "Rất quan trọng"
+        },
+        {
+          "value": "U",
+          "label": "Chưa rõ"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "D08",
+      "module": "D",
+      "subgroup": null,
+      "content": "Được hợp tác trong môi trường tôn trọng và công bằng.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "0",
+          "label": "Hiện không quan trọng"
+        },
+        {
+          "value": "1",
+          "label": "Ít quan trọng"
+        },
+        {
+          "value": "2",
+          "label": "Tương đối quan trọng"
+        },
+        {
+          "value": "3",
+          "label": "Quan trọng"
+        },
+        {
+          "value": "4",
+          "label": "Rất quan trọng"
+        },
+        {
+          "value": "U",
+          "label": "Chưa rõ"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "D09",
+      "module": "D",
+      "subgroup": null,
+      "content": "Có cơ hội dẫn dắt hoặc tạo ảnh hưởng tích cực.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "0",
+          "label": "Hiện không quan trọng"
+        },
+        {
+          "value": "1",
+          "label": "Ít quan trọng"
+        },
+        {
+          "value": "2",
+          "label": "Tương đối quan trọng"
+        },
+        {
+          "value": "3",
+          "label": "Quan trọng"
+        },
+        {
+          "value": "4",
+          "label": "Rất quan trọng"
+        },
+        {
+          "value": "U",
+          "label": "Chưa rõ"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "D10",
+      "module": "D",
+      "subgroup": null,
+      "content": "Có cơ hội bảo vệ môi trường và sử dụng tài nguyên có trách nhiệm.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "0",
+          "label": "Hiện không quan trọng"
+        },
+        {
+          "value": "1",
+          "label": "Ít quan trọng"
+        },
+        {
+          "value": "2",
+          "label": "Tương đối quan trọng"
+        },
+        {
+          "value": "3",
+          "label": "Quan trọng"
+        },
+        {
+          "value": "4",
+          "label": "Rất quan trọng"
+        },
+        {
+          "value": "U",
+          "label": "Chưa rõ"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "E01",
+      "module": "E",
+      "subgroup": "NG",
+      "content": "Em xem một video nói rằng một ngành sẽ chắc chắn có lương cao sau 5 năm. Em nên làm gì trước khi quyết định?",
+      "type": "single_choice",
+      "options": [
+        {
+          "value": "A",
+          "label": "Chọn ngành ngay vì video có nhiều lượt xem."
+        },
+        {
+          "value": "B",
+          "label": "Đối chiếu năm dữ liệu, khu vực và ít nhất hai nguồn đáng tin."
+        },
+        {
+          "value": "C",
+          "label": "Chỉ hỏi người đăng video về mức lương cao nhất."
+        },
+        {
+          "value": "D",
+          "label": "Chờ đến khi ngành đó trở nên phổ biến hơn."
+        },
+        {
+          "value": "U",
+          "label": "Chưa biết"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": "B",
+      "rubric": null
+    },
+    {
+      "id": "E02",
+      "module": "E",
+      "subgroup": "AI",
+      "content": "Một công cụ AI đưa ra ba ngành nghề phù hợp với em, nhưng không có nguồn. Bước tiếp theo tốt nhất là gì?",
+      "type": "single_choice",
+      "options": [
+        {
+          "value": "A",
+          "label": "Dùng nguyên danh sách để nộp nguyện vọng."
+        },
+        {
+          "value": "B",
+          "label": "Loại ngay tất cả ngành được AI gợi ý."
+        },
+        {
+          "value": "C",
+          "label": "Chỉ chọn ngành đứng đầu vì AI xử lý nhanh."
+        },
+        {
+          "value": "D",
+          "label": "Xem đó là gợi ý, kiểm tra nhiệm vụ nghề và yêu cầu đào tạo."
+        },
+        {
+          "value": "U",
+          "label": "Chưa biết"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": "D",
+      "rubric": null
+    },
+    {
+      "id": "E03",
+      "module": "E",
+      "subgroup": "QĐ",
+      "content": "Em thích thiết kế, còn gia đình mong em học kế toán. Cách mở đầu cuộc trao đổi nào phù hợp nhất?",
+      "type": "single_choice",
+      "options": [
+        {
+          "value": "A",
+          "label": "Nêu sở thích, minh chứng, chi phí và mời gia đình cùng so sánh."
+        },
+        {
+          "value": "B",
+          "label": "Giấu lựa chọn để tránh mọi trao đổi."
+        },
+        {
+          "value": "C",
+          "label": "Đồng ý ngay rồi không tìm hiểu nữa."
+        },
+        {
+          "value": "D",
+          "label": "Chỉ tranh luận về ngành nào có thu nhập cao hơn."
+        },
+        {
+          "value": "U",
+          "label": "Chưa biết"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": "A",
+      "rubric": null
+    },
+    {
+      "id": "E04",
+      "module": "E",
+      "subgroup": "KH",
+      "content": "Em muốn cải thiện kỹ năng tiếng Anh trong 30 ngày. Kế hoạch nào dễ kiểm tra nhất?",
+      "type": "single_choice",
+      "options": [
+        {
+          "value": "A",
+          "label": "Cố gắng học nhiều hơn khi rảnh."
+        },
+        {
+          "value": "B",
+          "label": "Chờ đến kỳ thi rồi mới ôn."
+        },
+        {
+          "value": "C",
+          "label": "Luyện 15 phút, 5 ngày/tuần; ghi lại một bài nói mỗi tuần."
+        },
+        {
+          "value": "D",
+          "label": "Chọn một ứng dụng và dùng bất cứ lúc nào."
+        },
+        {
+          "value": "U",
+          "label": "Chưa biết"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": "C",
+      "rubric": null
+    },
+    {
+      "id": "E05",
+      "module": "E",
+      "subgroup": "NG",
+      "content": "Một trường quảng cáo “100% sinh viên có việc làm”. Em nên hỏi thêm điều gì?",
+      "type": "single_choice",
+      "options": [
+        {
+          "value": "A",
+          "label": "Trường có bao nhiêu ảnh trên mạng xã hội."
+        },
+        {
+          "value": "B",
+          "label": "Khẩu hiệu của trường có nổi bật không."
+        },
+        {
+          "value": "C",
+          "label": "Tỷ lệ tính trên ai, thời điểm khảo sát và tiêu chí có việc làm."
+        },
+        {
+          "value": "D",
+          "label": "Bạn bè em có thích tên ngành hay không."
+        },
+        {
+          "value": "U",
+          "label": "Chưa biết"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": "C",
+      "rubric": null
+    },
+    {
+      "id": "E06",
+      "module": "E",
+      "subgroup": "AI",
+      "content": "Một nhiệm vụ nghề có nhiều thao tác lặp lại đang được tự động hóa. Hướng chuẩn bị nào hợp lý?",
+      "type": "single_choice",
+      "options": [
+        {
+          "value": "A",
+          "label": "Tìm nhiệm vụ mới, luyện kỹ năng bổ trợ và sử dụng công nghệ có kiểm chứng."
+        },
+        {
+          "value": "B",
+          "label": "Bỏ học vì tất cả nghề đều sẽ biến mất."
+        },
+        {
+          "value": "C",
+          "label": "Chỉ luyện đúng thao tác cũ mà không cập nhật."
+        },
+        {
+          "value": "D",
+          "label": "Chuyển ngay sang ngành AI dù chưa tìm hiểu."
+        },
+        {
+          "value": "U",
+          "label": "Chưa biết"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": "A",
+      "rubric": null
+    },
+    {
+      "id": "E07",
+      "module": "E",
+      "subgroup": "QĐ",
+      "content": "Em thích sửa chữa nhưng chưa từng được tiếp xúc với dụng cụ. Kết quả tự đánh giá năng lực thấp. Em nên làm gì?",
+      "type": "single_choice",
+      "options": [
+        {
+          "value": "A",
+          "label": "Kết luận mình không có khả năng kỹ thuật."
+        },
+        {
+          "value": "B",
+          "label": "Chọn nghề khác vì điểm thấp là cố định."
+        },
+        {
+          "value": "C",
+          "label": "Chỉ hỏi xem bạn nào có điểm cao hơn."
+        },
+        {
+          "value": "D",
+          "label": "Thử một hoạt động an toàn có hướng dẫn rồi đánh giá lại."
+        },
+        {
+          "value": "U",
+          "label": "Chưa biết"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": "D",
+      "rubric": null
+    },
+    {
+      "id": "E08",
+      "module": "E",
+      "subgroup": "KH",
+      "content": "Sau hai tuần, lịch học dự kiến không phù hợp vì em có trách nhiệm chăm sóc người thân. Em nên làm gì?",
+      "type": "single_choice",
+      "options": [
+        {
+          "value": "A",
+          "label": "Giữ nguyên lịch dù không thể thực hiện."
+        },
+        {
+          "value": "B",
+          "label": "Điều chỉnh khối lượng, chọn khung giờ khả thi và xin hỗ trợ."
+        },
+        {
+          "value": "C",
+          "label": "Xóa hết mục tiêu dài hạn."
+        },
+        {
+          "value": "D",
+          "label": "Chuyển toàn bộ việc học sang đêm muộn."
+        },
+        {
+          "value": "U",
+          "label": "Chưa biết"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": "B",
+      "rubric": null
+    },
+    {
+      "id": "E09",
+      "module": "E",
+      "subgroup": "NG",
+      "content": "Số liệu toàn quốc cho thấy lĩnh vực dịch vụ đang có nhiều lao động. Điều đó nói gì về cơ hội tại nơi em sống?",
+      "type": "single_choice",
+      "options": [
+        {
+          "value": "A",
+          "label": "Mọi nghề dịch vụ ở địa phương đều dễ xin việc."
+        },
+        {
+          "value": "B",
+          "label": "Chắc chắn em phải chọn dịch vụ."
+        },
+        {
+          "value": "C",
+          "label": "Các nhóm nghề khác không còn cơ hội."
+        },
+        {
+          "value": "D",
+          "label": "Cần kiểm tra thêm nhu cầu địa phương và từng nghề cụ thể."
+        },
+        {
+          "value": "U",
+          "label": "Chưa biết"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": "D",
+      "rubric": null
+    },
+    {
+      "id": "E10",
+      "module": "E",
+      "subgroup": "AI",
+      "content": "Khi nhờ AI góp ý hồ sơ hướng nghiệp, lựa chọn nào bảo vệ quyền riêng tư tốt nhất?",
+      "type": "single_choice",
+      "options": [
+        {
+          "value": "A",
+          "label": "Đưa tên, địa chỉ và toàn bộ hồ sơ cá nhân để có kết quả sát hơn."
+        },
+        {
+          "value": "B",
+          "label": "Chỉ gửi dữ liệu tối thiểu đã bỏ thông tin nhận dạng; kiểm tra chính sách."
+        },
+        {
+          "value": "C",
+          "label": "Đưa cả thông tin của bạn cùng lớp để AI so sánh."
+        },
+        {
+          "value": "D",
+          "label": "Công khai hồ sơ trên diễn đàn rồi gửi đường dẫn."
+        },
+        {
+          "value": "U",
+          "label": "Chưa biết"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": "B",
+      "rubric": null
+    },
+    {
+      "id": "E11",
+      "module": "E",
+      "subgroup": "QĐ",
+      "content": "Hai ngành em thích ngang nhau, một ngành học xa hơn và tốn chi phí hơn. Cách lựa chọn nào hữu ích?",
+      "type": "single_choice",
+      "options": [
+        {
+          "value": "A",
+          "label": "Chọn ngẫu nhiên để khỏi mất thời gian."
+        },
+        {
+          "value": "B",
+          "label": "Loại ngành xa ngay cả khi có hỗ trợ tài chính."
+        },
+        {
+          "value": "C",
+          "label": "So sánh giá trị, nhiệm vụ, chi phí, hỗ trợ và thử một hoạt động của mỗi ngành."
+        },
+        {
+          "value": "D",
+          "label": "Chọn ngành có điểm chuẩn cao hơn mà không xét yếu tố khác."
+        },
+        {
+          "value": "U",
+          "label": "Chưa biết"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": "C",
+      "rubric": null
+    },
+    {
+      "id": "E12",
+      "module": "E",
+      "subgroup": "KH",
+      "content": "Em không đạt kết quả mong muốn trong lần thử nghề đầu tiên. Bước kế tiếp nào giúp em học được nhiều nhất?",
+      "type": "single_choice",
+      "options": [
+        {
+          "value": "A",
+          "label": "Xem lại phản hồi, chọn một kỹ năng cần luyện rồi thử lại."
+        },
+        {
+          "value": "B",
+          "label": "Ngừng khám phá nghề vì lần thử đã thất bại."
+        },
+        {
+          "value": "C",
+          "label": "Chỉ ghi lại điểm số mà không xem sản phẩm."
+        },
+        {
+          "value": "D",
+          "label": "Đổi ngành ngay theo ý kiến của bạn."
+        },
+        {
+          "value": "U",
+          "label": "Chưa biết"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": "A",
+      "rubric": null
+    },
+    {
+      "id": "F01",
+      "module": "F",
+      "subgroup": null,
+      "content": "Em đang ở giai đoạn nào?",
+      "type": "single_choice",
+      "options": [
+        {
+          "value": "A",
+          "label": "Đang tìm hiểu nhiều hướng"
+        },
+        {
+          "value": "B",
+          "label": "Đã có 2–3 hướng để so sánh"
+        },
+        {
+          "value": "C",
+          "label": "Đã có hướng ưu tiên"
+        },
+        {
+          "value": "D",
+          "label": "Chưa muốn quyết định lúc này"
+        },
+        {
+          "value": "U",
+          "label": "Chưa rõ"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "F02",
+      "module": "F",
+      "subgroup": null,
+      "content": "Em đã tiếp xúc với công việc thực tế bằng cách nào? (Chọn nhiều)",
+      "type": "multi_choice",
+      "options": [
+        {
+          "value": "A",
+          "label": "Nghe người làm nghề chia sẻ"
+        },
+        {
+          "value": "B",
+          "label": "Thăm cơ sở hoặc trải nghiệm có hướng dẫn"
+        },
+        {
+          "value": "C",
+          "label": "Làm dự án/mô phỏng"
+        },
+        {
+          "value": "D",
+          "label": "Chưa có cơ hội"
+        },
+        {
+          "value": "U",
+          "label": "Chưa rõ"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [
+        "U",
+        "X",
+        "D"
+      ],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "F03",
+      "module": "F",
+      "subgroup": null,
+      "content": "Về chi phí học sau THPT, em hiện muốn làm rõ điều gì? (Chọn nhiều)",
+      "type": "multi_choice",
+      "options": [
+        {
+          "value": "A",
+          "label": "Học phí và sinh hoạt"
+        },
+        {
+          "value": "B",
+          "label": "Học bổng/hỗ trợ"
+        },
+        {
+          "value": "C",
+          "label": "Vừa học vừa làm phù hợp"
+        },
+        {
+          "value": "D",
+          "label": "Đã có dự toán sơ bộ"
+        },
+        {
+          "value": "U",
+          "label": "Chưa rõ"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [
+        "U",
+        "X"
+      ],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "F04",
+      "module": "F",
+      "subgroup": null,
+      "content": "Về nơi học/làm, phương án nào em muốn khảo sát? (Chọn nhiều)",
+      "type": "multi_choice",
+      "options": [
+        {
+          "value": "A",
+          "label": "Gần nhà"
+        },
+        {
+          "value": "B",
+          "label": "Đi tỉnh/thành khác"
+        },
+        {
+          "value": "C",
+          "label": "Học từ xa hoặc kết hợp nếu phù hợp"
+        },
+        {
+          "value": "D",
+          "label": "Chưa xác định"
+        },
+        {
+          "value": "U",
+          "label": "Chưa rõ"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [
+        "U",
+        "X",
+        "D"
+      ],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "F05",
+      "module": "F",
+      "subgroup": null,
+      "content": "Nguồn hỗ trợ nào em có thể tiếp cận? (Chọn nhiều)",
+      "type": "multi_choice",
+      "options": [
+        {
+          "value": "A",
+          "label": "Giáo viên/tổ tư vấn"
+        },
+        {
+          "value": "B",
+          "label": "Cha mẹ/người chăm sóc"
+        },
+        {
+          "value": "C",
+          "label": "Bạn/cựu học sinh/người làm nghề"
+        },
+        {
+          "value": "D",
+          "label": "Chưa biết tìm ai"
+        },
+        {
+          "value": "U",
+          "label": "Chưa rõ"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [
+        "U",
+        "X",
+        "D"
+      ],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "F06",
+      "module": "F",
+      "subgroup": null,
+      "content": "Điều gì có thể làm việc khám phá nghề khó hơn với em? (Chọn nhiều)",
+      "type": "multi_choice",
+      "options": [
+        {
+          "value": "A",
+          "label": "Thời gian hoặc trách nhiệm gia đình"
+        },
+        {
+          "value": "B",
+          "label": "Thiết bị, mạng hoặc đi lại"
+        },
+        {
+          "value": "C",
+          "label": "Thông tin chưa rõ/thiếu cơ hội trải nghiệm"
+        },
+        {
+          "value": "D",
+          "label": "Nhu cầu hỗ trợ tiếp cận khác"
+        },
+        {
+          "value": "U",
+          "label": "Chưa rõ"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [
+        "U",
+        "X"
+      ],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "F07",
+      "module": "F",
+      "subgroup": null,
+      "content": "Khi trao đổi về lựa chọn nghề, em muốn được hỗ trợ theo cách nào? (Chọn nhiều)",
+      "type": "multi_choice",
+      "options": [
+        {
+          "value": "A",
+          "label": "Tự tìm hiểu trước"
+        },
+        {
+          "value": "B",
+          "label": "Trao đổi riêng với giáo viên"
+        },
+        {
+          "value": "C",
+          "label": "Trao đổi cùng người chăm sóc khi em đồng ý"
+        },
+        {
+          "value": "D",
+          "label": "Tham gia nhóm trải nghiệm"
+        },
+        {
+          "value": "U",
+          "label": "Chưa rõ"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [
+        "U",
+        "X"
+      ],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "F08",
+      "module": "F",
+      "subgroup": null,
+      "content": "Em muốn tìm hiểu lộ trình nào sau THPT? (Chọn nhiều)",
+      "type": "multi_choice",
+      "options": [
+        {
+          "value": "A",
+          "label": "Đại học"
+        },
+        {
+          "value": "B",
+          "label": "Cao đẳng/trung cấp/đào tạo nghề"
+        },
+        {
+          "value": "C",
+          "label": "Làm việc kết hợp học tập phù hợp quy định"
+        },
+        {
+          "value": "D",
+          "label": "Chưa rõ, cần tìm thêm"
+        },
+        {
+          "value": "U",
+          "label": "Chưa rõ"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [
+        "U",
+        "X",
+        "D"
+      ],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "G01",
+      "module": "G",
+      "subgroup": null,
+      "content": "Em có thể viết hai hướng nghề muốn khảo sát.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "0",
+          "label": "Chưa có"
+        },
+        {
+          "value": "1",
+          "label": "Đang làm/còn thiếu"
+        },
+        {
+          "value": "2",
+          "label": "Đã có sản phẩm"
+        },
+        {
+          "value": "U",
+          "label": "Chưa rõ"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "G02",
+      "module": "G",
+      "subgroup": null,
+      "content": "Em có một minh chứng cho kỹ năng muốn phát triển.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "0",
+          "label": "Chưa có"
+        },
+        {
+          "value": "1",
+          "label": "Đang làm/còn thiếu"
+        },
+        {
+          "value": "2",
+          "label": "Đã có sản phẩm"
+        },
+        {
+          "value": "U",
+          "label": "Chưa rõ"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "G03",
+      "module": "G",
+      "subgroup": null,
+      "content": "Em đã ghi nguồn và ngày cập nhật thông tin cho ít nhất một hướng nghề.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "0",
+          "label": "Chưa có"
+        },
+        {
+          "value": "1",
+          "label": "Đang làm/còn thiếu"
+        },
+        {
+          "value": "2",
+          "label": "Đã có sản phẩm"
+        },
+        {
+          "value": "U",
+          "label": "Chưa rõ"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "G04",
+      "module": "G",
+      "subgroup": null,
+      "content": "Em đã đối chiếu chi phí và điều kiện đào tạo của hai phương án.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "0",
+          "label": "Chưa có"
+        },
+        {
+          "value": "1",
+          "label": "Đang làm/còn thiếu"
+        },
+        {
+          "value": "2",
+          "label": "Đã có sản phẩm"
+        },
+        {
+          "value": "U",
+          "label": "Chưa rõ"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "G05",
+      "module": "G",
+      "subgroup": null,
+      "content": "Em có một mục tiêu 30 ngày với hành động cụ thể.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "0",
+          "label": "Chưa có"
+        },
+        {
+          "value": "1",
+          "label": "Đang làm/còn thiếu"
+        },
+        {
+          "value": "2",
+          "label": "Đã có sản phẩm"
+        },
+        {
+          "value": "U",
+          "label": "Chưa rõ"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "G06",
+      "module": "G",
+      "subgroup": null,
+      "content": "Em biết ai có thể hỗ trợ hoặc phản hồi cho mình.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "0",
+          "label": "Chưa có"
+        },
+        {
+          "value": "1",
+          "label": "Đang làm/còn thiếu"
+        },
+        {
+          "value": "2",
+          "label": "Đã có sản phẩm"
+        },
+        {
+          "value": "U",
+          "label": "Chưa rõ"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "G07",
+      "module": "G",
+      "subgroup": null,
+      "content": "Em có phương án thay thế nếu hướng ưu tiên gặp trở ngại.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "0",
+          "label": "Chưa có"
+        },
+        {
+          "value": "1",
+          "label": "Đang làm/còn thiếu"
+        },
+        {
+          "value": "2",
+          "label": "Đã có sản phẩm"
+        },
+        {
+          "value": "U",
+          "label": "Chưa rõ"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "G08",
+      "module": "G",
+      "subgroup": null,
+      "content": "Em đã đặt ngày xem lại kế hoạch và cách kiểm tra tiến độ.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "0",
+          "label": "Chưa có"
+        },
+        {
+          "value": "1",
+          "label": "Đang làm/còn thiếu"
+        },
+        {
+          "value": "2",
+          "label": "Đã có sản phẩm"
+        },
+        {
+          "value": "U",
+          "label": "Chưa rõ"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "H01",
+      "module": "H",
+      "subgroup": "NT",
+      "content": "Khi đứng trước một lựa chọn, em nhận ra điều gì làm mình hào hứng và điều gì chỉ làm mình muốn được công nhận.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "1",
+          "label": "Hoàn toàn không đúng"
+        },
+        {
+          "value": "2",
+          "label": "Ít đúng"
+        },
+        {
+          "value": "3",
+          "label": "Phần nào đúng"
+        },
+        {
+          "value": "4",
+          "label": "Khá đúng"
+        },
+        {
+          "value": "5",
+          "label": "Rất đúng"
+        },
+        {
+          "value": "U",
+          "label": "Chưa rõ/chưa có dịp"
+        },
+        {
+          "value": "X",
+          "label": "Không muốn trả lời"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "H02",
+      "module": "H",
+      "subgroup": "NT",
+      "content": "Sau một hoạt động, em nhận ra phần việc nào khiến mình tập trung lâu hơn.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "1",
+          "label": "Hoàn toàn không đúng"
+        },
+        {
+          "value": "2",
+          "label": "Ít đúng"
+        },
+        {
+          "value": "3",
+          "label": "Phần nào đúng"
+        },
+        {
+          "value": "4",
+          "label": "Khá đúng"
+        },
+        {
+          "value": "5",
+          "label": "Rất đúng"
+        },
+        {
+          "value": "U",
+          "label": "Chưa rõ/chưa có dịp"
+        },
+        {
+          "value": "X",
+          "label": "Không muốn trả lời"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "H03",
+      "module": "H",
+      "subgroup": "NT",
+      "content": "Khi gặp trở ngại, em phân biệt được điều mình có thể thay đổi với điều nằm ngoài khả năng kiểm soát.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "1",
+          "label": "Hoàn toàn không đúng"
+        },
+        {
+          "value": "2",
+          "label": "Ít đúng"
+        },
+        {
+          "value": "3",
+          "label": "Phần nào đúng"
+        },
+        {
+          "value": "4",
+          "label": "Khá đúng"
+        },
+        {
+          "value": "5",
+          "label": "Rất đúng"
+        },
+        {
+          "value": "U",
+          "label": "Chưa rõ/chưa có dịp"
+        },
+        {
+          "value": "X",
+          "label": "Không muốn trả lời"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "H04",
+      "module": "H",
+      "subgroup": "NT",
+      "content": "Em nhận ra dấu hiệu mình cần nghỉ hoặc đổi cách học trước khi quá tải.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "1",
+          "label": "Hoàn toàn không đúng"
+        },
+        {
+          "value": "2",
+          "label": "Ít đúng"
+        },
+        {
+          "value": "3",
+          "label": "Phần nào đúng"
+        },
+        {
+          "value": "4",
+          "label": "Khá đúng"
+        },
+        {
+          "value": "5",
+          "label": "Rất đúng"
+        },
+        {
+          "value": "U",
+          "label": "Chưa rõ/chưa có dịp"
+        },
+        {
+          "value": "X",
+          "label": "Không muốn trả lời"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "H05",
+      "module": "H",
+      "subgroup": "NT",
+      "content": "Em phân biệt được điều mình muốn với điều mình nghĩ là người khác muốn ở mình.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "1",
+          "label": "Hoàn toàn không đúng"
+        },
+        {
+          "value": "2",
+          "label": "Ít đúng"
+        },
+        {
+          "value": "3",
+          "label": "Phần nào đúng"
+        },
+        {
+          "value": "4",
+          "label": "Khá đúng"
+        },
+        {
+          "value": "5",
+          "label": "Rất đúng"
+        },
+        {
+          "value": "U",
+          "label": "Chưa rõ/chưa có dịp"
+        },
+        {
+          "value": "X",
+          "label": "Không muốn trả lời"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "H06",
+      "module": "H",
+      "subgroup": "NT",
+      "content": "Em nhận ra khi một lần thành công hay thất bại chưa đủ để kết luận về khả năng của mình.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "1",
+          "label": "Hoàn toàn không đúng"
+        },
+        {
+          "value": "2",
+          "label": "Ít đúng"
+        },
+        {
+          "value": "3",
+          "label": "Phần nào đúng"
+        },
+        {
+          "value": "4",
+          "label": "Khá đúng"
+        },
+        {
+          "value": "5",
+          "label": "Rất đúng"
+        },
+        {
+          "value": "U",
+          "label": "Chưa rõ/chưa có dịp"
+        },
+        {
+          "value": "X",
+          "label": "Không muốn trả lời"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "H07",
+      "module": "H",
+      "subgroup": "NT",
+      "content": "Khi hai điều quan trọng xung đột, em gọi tên được cả hai điều đó.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "1",
+          "label": "Hoàn toàn không đúng"
+        },
+        {
+          "value": "2",
+          "label": "Ít đúng"
+        },
+        {
+          "value": "3",
+          "label": "Phần nào đúng"
+        },
+        {
+          "value": "4",
+          "label": "Khá đúng"
+        },
+        {
+          "value": "5",
+          "label": "Rất đúng"
+        },
+        {
+          "value": "U",
+          "label": "Chưa rõ/chưa có dịp"
+        },
+        {
+          "value": "X",
+          "label": "Không muốn trả lời"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "H08",
+      "module": "H",
+      "subgroup": "NT",
+      "content": "Em nhận ra khi trải nghiệm mới làm mình thay đổi suy nghĩ về một nghề.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "1",
+          "label": "Hoàn toàn không đúng"
+        },
+        {
+          "value": "2",
+          "label": "Ít đúng"
+        },
+        {
+          "value": "3",
+          "label": "Phần nào đúng"
+        },
+        {
+          "value": "4",
+          "label": "Khá đúng"
+        },
+        {
+          "value": "5",
+          "label": "Rất đúng"
+        },
+        {
+          "value": "U",
+          "label": "Chưa rõ/chưa có dịp"
+        },
+        {
+          "value": "X",
+          "label": "Không muốn trả lời"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "H09",
+      "module": "H",
+      "subgroup": "NB",
+      "content": "Khi nhận góp ý, em hỏi người nói về một việc cụ thể mà họ quan sát được.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "1",
+          "label": "Hoàn toàn không đúng"
+        },
+        {
+          "value": "2",
+          "label": "Ít đúng"
+        },
+        {
+          "value": "3",
+          "label": "Phần nào đúng"
+        },
+        {
+          "value": "4",
+          "label": "Khá đúng"
+        },
+        {
+          "value": "5",
+          "label": "Rất đúng"
+        },
+        {
+          "value": "U",
+          "label": "Chưa rõ/chưa có dịp"
+        },
+        {
+          "value": "X",
+          "label": "Không muốn trả lời"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "H10",
+      "module": "H",
+      "subgroup": "NB",
+      "content": "Em kiểm tra lại xem người khác đã hiểu đúng ý mình khi làm việc chung hay chưa.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "1",
+          "label": "Hoàn toàn không đúng"
+        },
+        {
+          "value": "2",
+          "label": "Ít đúng"
+        },
+        {
+          "value": "3",
+          "label": "Phần nào đúng"
+        },
+        {
+          "value": "4",
+          "label": "Khá đúng"
+        },
+        {
+          "value": "5",
+          "label": "Rất đúng"
+        },
+        {
+          "value": "U",
+          "label": "Chưa rõ/chưa có dịp"
+        },
+        {
+          "value": "X",
+          "label": "Không muốn trả lời"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "H11",
+      "module": "H",
+      "subgroup": "NB",
+      "content": "Em lắng nghe một cách nhìn khác về mình trước khi quyết định có đồng ý hay không.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "1",
+          "label": "Hoàn toàn không đúng"
+        },
+        {
+          "value": "2",
+          "label": "Ít đúng"
+        },
+        {
+          "value": "3",
+          "label": "Phần nào đúng"
+        },
+        {
+          "value": "4",
+          "label": "Khá đúng"
+        },
+        {
+          "value": "5",
+          "label": "Rất đúng"
+        },
+        {
+          "value": "U",
+          "label": "Chưa rõ/chưa có dịp"
+        },
+        {
+          "value": "X",
+          "label": "Không muốn trả lời"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "H12",
+      "module": "H",
+      "subgroup": "NB",
+      "content": "Em hỏi về tác động của cách làm việc của mình đối với nhóm.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "1",
+          "label": "Hoàn toàn không đúng"
+        },
+        {
+          "value": "2",
+          "label": "Ít đúng"
+        },
+        {
+          "value": "3",
+          "label": "Phần nào đúng"
+        },
+        {
+          "value": "4",
+          "label": "Khá đúng"
+        },
+        {
+          "value": "5",
+          "label": "Rất đúng"
+        },
+        {
+          "value": "U",
+          "label": "Chưa rõ/chưa có dịp"
+        },
+        {
+          "value": "X",
+          "label": "Không muốn trả lời"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "H13",
+      "module": "H",
+      "subgroup": "NB",
+      "content": "Em nhận ra một người chỉ có thể góp ý về bối cảnh mà họ từng quan sát.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "1",
+          "label": "Hoàn toàn không đúng"
+        },
+        {
+          "value": "2",
+          "label": "Ít đúng"
+        },
+        {
+          "value": "3",
+          "label": "Phần nào đúng"
+        },
+        {
+          "value": "4",
+          "label": "Khá đúng"
+        },
+        {
+          "value": "5",
+          "label": "Rất đúng"
+        },
+        {
+          "value": "U",
+          "label": "Chưa rõ/chưa có dịp"
+        },
+        {
+          "value": "X",
+          "label": "Không muốn trả lời"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "H14",
+      "module": "H",
+      "subgroup": "NB",
+      "content": "Khi hai người nhận xét khác nhau, em tìm ví dụ cụ thể để hiểu sự khác biệt.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "1",
+          "label": "Hoàn toàn không đúng"
+        },
+        {
+          "value": "2",
+          "label": "Ít đúng"
+        },
+        {
+          "value": "3",
+          "label": "Phần nào đúng"
+        },
+        {
+          "value": "4",
+          "label": "Khá đúng"
+        },
+        {
+          "value": "5",
+          "label": "Rất đúng"
+        },
+        {
+          "value": "U",
+          "label": "Chưa rõ/chưa có dịp"
+        },
+        {
+          "value": "X",
+          "label": "Không muốn trả lời"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "H15",
+      "module": "H",
+      "subgroup": "NB",
+      "content": "Em nói rõ với người góp ý về điều mình muốn được hỗ trợ thay vì xin họ đánh giá toàn bộ con người mình.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "1",
+          "label": "Hoàn toàn không đúng"
+        },
+        {
+          "value": "2",
+          "label": "Ít đúng"
+        },
+        {
+          "value": "3",
+          "label": "Phần nào đúng"
+        },
+        {
+          "value": "4",
+          "label": "Khá đúng"
+        },
+        {
+          "value": "5",
+          "label": "Rất đúng"
+        },
+        {
+          "value": "U",
+          "label": "Chưa rõ/chưa có dịp"
+        },
+        {
+          "value": "X",
+          "label": "Không muốn trả lời"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "H16",
+      "module": "H",
+      "subgroup": "NB",
+      "content": "Em thử điều chỉnh một hành vi sau khi cân nhắc phản hồi, rồi hỏi lại về kết quả.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "1",
+          "label": "Hoàn toàn không đúng"
+        },
+        {
+          "value": "2",
+          "label": "Ít đúng"
+        },
+        {
+          "value": "3",
+          "label": "Phần nào đúng"
+        },
+        {
+          "value": "4",
+          "label": "Khá đúng"
+        },
+        {
+          "value": "5",
+          "label": "Rất đúng"
+        },
+        {
+          "value": "U",
+          "label": "Chưa rõ/chưa có dịp"
+        },
+        {
+          "value": "X",
+          "label": "Không muốn trả lời"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "I01",
+      "module": "I",
+      "subgroup": null,
+      "content": "Dấu vết hứng thú — Trong tháng qua, kể một việc em tự muốn làm thêm dù không có điểm thưởng. Phần việc nào cuốn hút em?",
+      "type": "private_reflection",
+      "options": [],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "I02",
+      "module": "I",
+      "subgroup": null,
+      "content": "Năng lượng — So sánh hai hoạt động quen thuộc: một việc giúp em có thêm năng lượng và một việc làm em mau mệt. Điều kiện nào tạo khác biệt?",
+      "type": "private_reflection",
+      "options": [],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "I03",
+      "module": "I",
+      "subgroup": null,
+      "content": "Tự hào có bằng chứng — Chọn một lần em vượt qua khó khăn hoặc giúp việc chung tiến triển. Em đã thực sự làm phần nào?",
+      "type": "private_reflection",
+      "options": [],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "I04",
+      "module": "I",
+      "subgroup": null,
+      "content": "Điều chưa biết — Chọn một hoạt động em từng nghĩ mình không hợp nhưng chưa có cơ hội thử. Một phép thử nhỏ, an toàn là gì?",
+      "type": "private_reflection",
+      "options": [],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "I05",
+      "module": "I",
+      "subgroup": null,
+      "content": "Hình mẫu — Nêu một người (không cần tên) có phẩm chất em muốn học. Chọn một hành vi cụ thể để thực hành trong tuần.",
+      "type": "private_reflection",
+      "options": [],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "I06",
+      "module": "I",
+      "subgroup": null,
+      "content": "Ngày có ý nghĩa — Hình dung một ngày bình thường của em sau THPT mà em thấy đáng sống. Em đang làm gì, cùng ai, trong điều kiện nào?",
+      "type": "private_reflection",
+      "options": [],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "I07",
+      "module": "I",
+      "subgroup": null,
+      "content": "Ranh giới — Điều gì em muốn bảo vệ trong một công việc tương lai, chẳng hạn thời gian, sức khỏe, sự trung thực hoặc quan hệ?",
+      "type": "private_reflection",
+      "options": [],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "I08",
+      "module": "I",
+      "subgroup": null,
+      "content": "Giá trị xung đột — Nếu một cơ hội cho thu nhập tốt nhưng ít thời gian cho điều em coi trọng, em cần thêm thông tin gì trước khi chọn?",
+      "type": "private_reflection",
+      "options": [],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "I09",
+      "module": "I",
+      "subgroup": null,
+      "content": "Tiếng nói riêng — Khi người lớn khuyên một hướng mà em chưa hiểu rõ, em muốn hỏi họ điều gì và muốn họ lắng nghe điều gì từ em?",
+      "type": "private_reflection",
+      "options": [],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "I10",
+      "module": "I",
+      "subgroup": null,
+      "content": "Đóng góp — Chọn một vấn đề nhỏ ở trường hoặc nơi em sống. Em muốn giúp ai và có thể bắt đầu bằng việc gì?",
+      "type": "private_reflection",
+      "options": [],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "I11",
+      "module": "I",
+      "subgroup": null,
+      "content": "Niềm tin có thể đổi — Viết một nhận định em đang có về khả năng của mình. Bằng chứng nào ủng hộ, bằng chứng nào còn thiếu?",
+      "type": "private_reflection",
+      "options": [],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "I12",
+      "module": "I",
+      "subgroup": null,
+      "content": "Phản hồi — Nghĩ về một góp ý mà em thấy có ích (không cần nêu người nói). Em đã học được điều gì hoặc muốn thử điều gì?",
+      "type": "private_reflection",
+      "options": [],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "I13",
+      "module": "I",
+      "subgroup": null,
+      "content": "Không bị giới hạn bởi nghề — Nếu tên nghề em mơ ước thay đổi, những nhiệm vụ hoặc giá trị nào em vẫn muốn theo đuổi?",
+      "type": "private_reflection",
+      "options": [],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "I14",
+      "module": "I",
+      "subgroup": null,
+      "content": "Ba tương lai — Nêu ba phiên bản tương lai đáng cân nhắc: một hướng quen thuộc, một hướng mới, một hướng phù hợp khi điều kiện thay đổi.",
+      "type": "private_reflection",
+      "options": [],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "I15",
+      "module": "I",
+      "subgroup": null,
+      "content": "Nỗi lo có lối đi — Nếu muốn, nêu một điều chưa chắc chắn về sau THPT. Điều gì em cần biết hoặc ai có thể giúp? Không cần kể chuyện riêng.",
+      "type": "private_reflection",
+      "options": [],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "I16",
+      "module": "I",
+      "subgroup": null,
+      "content": "Lời nhắn cho mình — Viết lời nhắn gửi bản thân sau 90 ngày: em muốn học được gì, nhìn thấy bằng chứng gì và sẽ tự đối xử với mình thế nào khi kế hoạch đổi?",
+      "type": "private_reflection",
+      "options": [],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "J01",
+      "module": "J",
+      "subgroup": null,
+      "content": "Chủ động hỏi khi chưa hiểu một nhiệm vụ chung.",
+      "type": "paired_observation",
+      "options": [
+        {
+          "value": "Y",
+          "label": "Có ví dụ cụ thể"
+        },
+        {
+          "value": "N",
+          "label": "Đã có cơ hội quan sát nhưng chưa thấy"
+        },
+        {
+          "value": "U",
+          "label": "Không đủ cơ hội/dữ liệu"
+        },
+        {
+          "value": "X",
+          "label": "Không muốn trả lời"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "J02",
+      "module": "J",
+      "subgroup": null,
+      "content": "Hoàn thành phần việc đã nhận theo thời hạn thống nhất.",
+      "type": "paired_observation",
+      "options": [
+        {
+          "value": "Y",
+          "label": "Có ví dụ cụ thể"
+        },
+        {
+          "value": "N",
+          "label": "Đã có cơ hội quan sát nhưng chưa thấy"
+        },
+        {
+          "value": "U",
+          "label": "Không đủ cơ hội/dữ liệu"
+        },
+        {
+          "value": "X",
+          "label": "Không muốn trả lời"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "J03",
+      "module": "J",
+      "subgroup": null,
+      "content": "Giải thích một ý tưởng để người khác có thể hiểu.",
+      "type": "paired_observation",
+      "options": [
+        {
+          "value": "Y",
+          "label": "Có ví dụ cụ thể"
+        },
+        {
+          "value": "N",
+          "label": "Đã có cơ hội quan sát nhưng chưa thấy"
+        },
+        {
+          "value": "U",
+          "label": "Không đủ cơ hội/dữ liệu"
+        },
+        {
+          "value": "X",
+          "label": "Không muốn trả lời"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "J04",
+      "module": "J",
+      "subgroup": null,
+      "content": "Lắng nghe ý kiến khác trước khi phản hồi.",
+      "type": "paired_observation",
+      "options": [
+        {
+          "value": "Y",
+          "label": "Có ví dụ cụ thể"
+        },
+        {
+          "value": "N",
+          "label": "Đã có cơ hội quan sát nhưng chưa thấy"
+        },
+        {
+          "value": "U",
+          "label": "Không đủ cơ hội/dữ liệu"
+        },
+        {
+          "value": "X",
+          "label": "Không muốn trả lời"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "J05",
+      "module": "J",
+      "subgroup": null,
+      "content": "Thử một cách khác khi cách ban đầu chưa hiệu quả.",
+      "type": "paired_observation",
+      "options": [
+        {
+          "value": "Y",
+          "label": "Có ví dụ cụ thể"
+        },
+        {
+          "value": "N",
+          "label": "Đã có cơ hội quan sát nhưng chưa thấy"
+        },
+        {
+          "value": "U",
+          "label": "Không đủ cơ hội/dữ liệu"
+        },
+        {
+          "value": "X",
+          "label": "Không muốn trả lời"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "J06",
+      "module": "J",
+      "subgroup": null,
+      "content": "Kiểm tra lại kết quả trước khi bàn giao.",
+      "type": "paired_observation",
+      "options": [
+        {
+          "value": "Y",
+          "label": "Có ví dụ cụ thể"
+        },
+        {
+          "value": "N",
+          "label": "Đã có cơ hội quan sát nhưng chưa thấy"
+        },
+        {
+          "value": "U",
+          "label": "Không đủ cơ hội/dữ liệu"
+        },
+        {
+          "value": "X",
+          "label": "Không muốn trả lời"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "J07",
+      "module": "J",
+      "subgroup": null,
+      "content": "Chủ động tìm nguồn thông tin khi có câu hỏi.",
+      "type": "paired_observation",
+      "options": [
+        {
+          "value": "Y",
+          "label": "Có ví dụ cụ thể"
+        },
+        {
+          "value": "N",
+          "label": "Đã có cơ hội quan sát nhưng chưa thấy"
+        },
+        {
+          "value": "U",
+          "label": "Không đủ cơ hội/dữ liệu"
+        },
+        {
+          "value": "X",
+          "label": "Không muốn trả lời"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "J08",
+      "module": "J",
+      "subgroup": null,
+      "content": "Đề xuất một cách làm mới cho nhiệm vụ.",
+      "type": "paired_observation",
+      "options": [
+        {
+          "value": "Y",
+          "label": "Có ví dụ cụ thể"
+        },
+        {
+          "value": "N",
+          "label": "Đã có cơ hội quan sát nhưng chưa thấy"
+        },
+        {
+          "value": "U",
+          "label": "Không đủ cơ hội/dữ liệu"
+        },
+        {
+          "value": "X",
+          "label": "Không muốn trả lời"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "J09",
+      "module": "J",
+      "subgroup": null,
+      "content": "Chia sẻ công việc hoặc hỗ trợ bạn khi phù hợp.",
+      "type": "paired_observation",
+      "options": [
+        {
+          "value": "Y",
+          "label": "Có ví dụ cụ thể"
+        },
+        {
+          "value": "N",
+          "label": "Đã có cơ hội quan sát nhưng chưa thấy"
+        },
+        {
+          "value": "U",
+          "label": "Không đủ cơ hội/dữ liệu"
+        },
+        {
+          "value": "X",
+          "label": "Không muốn trả lời"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "J10",
+      "module": "J",
+      "subgroup": null,
+      "content": "Điều chỉnh kế hoạch khi có thay đổi bất ngờ.",
+      "type": "paired_observation",
+      "options": [
+        {
+          "value": "Y",
+          "label": "Có ví dụ cụ thể"
+        },
+        {
+          "value": "N",
+          "label": "Đã có cơ hội quan sát nhưng chưa thấy"
+        },
+        {
+          "value": "U",
+          "label": "Không đủ cơ hội/dữ liệu"
+        },
+        {
+          "value": "X",
+          "label": "Không muốn trả lời"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "J11",
+      "module": "J",
+      "subgroup": null,
+      "content": "Nói rõ điều mình cần để hoàn thành nhiệm vụ.",
+      "type": "paired_observation",
+      "options": [
+        {
+          "value": "Y",
+          "label": "Có ví dụ cụ thể"
+        },
+        {
+          "value": "N",
+          "label": "Đã có cơ hội quan sát nhưng chưa thấy"
+        },
+        {
+          "value": "U",
+          "label": "Không đủ cơ hội/dữ liệu"
+        },
+        {
+          "value": "X",
+          "label": "Không muốn trả lời"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "J12",
+      "module": "J",
+      "subgroup": null,
+      "content": "Ghi nhận đóng góp của người khác trong sản phẩm chung.",
+      "type": "paired_observation",
+      "options": [
+        {
+          "value": "Y",
+          "label": "Có ví dụ cụ thể"
+        },
+        {
+          "value": "N",
+          "label": "Đã có cơ hội quan sát nhưng chưa thấy"
+        },
+        {
+          "value": "U",
+          "label": "Không đủ cơ hội/dữ liệu"
+        },
+        {
+          "value": "X",
+          "label": "Không muốn trả lời"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "K01",
+      "module": "K",
+      "subgroup": "DL",
+      "content": "Một báo cáo quý III/2026 cho biết tỷ lệ thất nghiệp thanh niên 15–24 tuổi là 9,07%. Bạn em nói “9,07% học sinh THPT sẽ thất nghiệp khi ra trường”. Em phản hồi thế nào?",
+      "type": "single_choice",
+      "options": [
+        {
+          "value": "A",
+          "label": "Đây là tỷ lệ thanh niên thất nghiệp trong lực lượng lao động của nhóm tuổi, không phải xác suất thất nghiệp của học sinh THPT."
+        },
+        {
+          "value": "B",
+          "label": "Đúng nếu các em chọn nghề giống nhau."
+        },
+        {
+          "value": "C",
+          "label": "Có thể dùng làm tỷ lệ tốt nghiệp THPT không tìm được việc."
+        },
+        {
+          "value": "D",
+          "label": "Chỉ cần biết số này để loại ngành có nhiều người học."
+        },
+        {
+          "value": "U",
+          "label": "Chưa biết"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": "A",
+      "rubric": null
+    },
+    {
+      "id": "K02",
+      "module": "K",
+      "subgroup": "AI",
+      "content": "Một công cụ AI gợi ý ngành học và đưa hai đường dẫn tuyển sinh. Đường dẫn thứ nhất có thông tin năm trước, đường dẫn thứ hai không mở được. Bước kế tiếp?",
+      "type": "single_choice",
+      "options": [
+        {
+          "value": "A",
+          "label": "Dùng năm trước nếu tên ngành không đổi."
+        },
+        {
+          "value": "B",
+          "label": "Hỏi AI thêm lần nữa rồi dùng kết quả trùng."
+        },
+        {
+          "value": "C",
+          "label": "Tìm thông báo năm dự tuyển trên trang trường/cơ quan tuyển sinh; ghi điều chưa xác minh."
+        },
+        {
+          "value": "D",
+          "label": "Chọn trường đứng đầu danh sách rồi hỏi sau."
+        },
+        {
+          "value": "U",
+          "label": "Chưa biết"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": "C",
+      "rubric": null
+    },
+    {
+      "id": "K03",
+      "module": "K",
+      "subgroup": "LC",
+      "content": "Một bạn muốn học gần nhà để chăm sóc gia đình, đồng thời quan tâm ngành chỉ được đào tạo xa. Hai mục tiêu đều quan trọng. Em khuyên bạn bắt đầu từ đâu?",
+      "type": "single_choice",
+      "options": [
+        {
+          "value": "A",
+          "label": "Đợi đến khi có kết quả thi rồi mới xem các lựa chọn."
+        },
+        {
+          "value": "B",
+          "label": "Trao đổi về nhu cầu chăm sóc, tìm lộ trình thay thế/hỗ trợ và so sánh chi phí, điều kiện trước khi chọn."
+        },
+        {
+          "value": "C",
+          "label": "Chỉ xem phương án gần nhà để tránh mâu thuẫn."
+        },
+        {
+          "value": "D",
+          "label": "Ưu tiên nơi xa vì chuyên ngành quan trọng hơn mọi yếu tố."
+        },
+        {
+          "value": "U",
+          "label": "Chưa biết"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": "B",
+      "rubric": null
+    },
+    {
+      "id": "K04",
+      "module": "K",
+      "subgroup": "TD",
+      "content": "Một cơ sở chế biến nông sản trong vùng muốn giảm lãng phí nước và điện. Em thích lĩnh vực này nhưng chưa có thiết bị chuyên dụng. Hoạt động khám phá nào hữu ích nhất?",
+      "type": "single_choice",
+      "options": [
+        {
+          "value": "A",
+          "label": "Xem video giới thiệu nhiều máy rồi tự xếp hạng năng lực."
+        },
+        {
+          "value": "B",
+          "label": "Đợi có thiết bị hiện đại mới tham gia."
+        },
+        {
+          "value": "C",
+          "label": "Chỉ học tên công nghệ vì đó là kiến thức ngành."
+        },
+        {
+          "value": "D",
+          "label": "Dùng số liệu giả định hoặc quan sát an toàn để đề xuất cách tiết kiệm, hỏi người có chuyên môn phản hồi."
+        },
+        {
+          "value": "U",
+          "label": "Chưa biết"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": "D",
+      "rubric": null
+    },
+    {
+      "id": "K05",
+      "module": "K",
+      "subgroup": "AI",
+      "content": "Nhóm cần dùng AI viết bản giới thiệu nghề, có thông tin từ nhật ký riêng của một bạn. Bạn ấy không đồng ý đưa nhật ký lên công cụ. Nhóm nên làm gì?",
+      "type": "single_choice",
+      "options": [
+        {
+          "value": "A",
+          "label": "Chỉ bỏ tên rồi tải nguyên nhật ký."
+        },
+        {
+          "value": "B",
+          "label": "Tạo dữ liệu giả hoặc dùng thông tin công khai, không tải nhật ký; kiểm tra và công khai cách dùng AI."
+        },
+        {
+          "value": "C",
+          "label": "Nhờ một thành viên khác tải hộ để tránh lưu trên tài khoản mình."
+        },
+        {
+          "value": "D",
+          "label": "Tải các đoạn ngắn vì chúng ít nhạy cảm hơn."
+        },
+        {
+          "value": "U",
+          "label": "Chưa biết"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": "B",
+      "rubric": null
+    },
+    {
+      "id": "K06",
+      "module": "K",
+      "subgroup": "DL",
+      "content": "Bản tin nói nhà tuyển dụng dự kiến 39% kỹ năng cốt lõi thay đổi đến 2030. Cách dùng con số hợp lý?",
+      "type": "single_choice",
+      "options": [
+        {
+          "value": "A",
+          "label": "Xem đây là kỳ vọng toàn cầu của mẫu khảo sát, dùng để chuẩn bị học liên tục và kiểm tra yêu cầu từng nghề."
+        },
+        {
+          "value": "B",
+          "label": "Coi 39% việc làm sẽ biến mất ở Việt Nam."
+        },
+        {
+          "value": "C",
+          "label": "Coi 39% học sinh phải đổi ngành sau tốt nghiệp."
+        },
+        {
+          "value": "D",
+          "label": "Chỉ học kỹ năng công nghệ vì các kỹ năng khác sẽ hết giá trị."
+        },
+        {
+          "value": "U",
+          "label": "Chưa biết"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": "A",
+      "rubric": null
+    },
+    {
+      "id": "K07",
+      "module": "K",
+      "subgroup": "TD",
+      "content": "Một doanh nghiệp giả định tự động hóa khâu nhập dữ liệu; khâu xử lý tình huống và kiểm tra chất lượng vẫn cần người. Nếu quan tâm lĩnh vực này, em nên thử gì?",
+      "type": "single_choice",
+      "options": [
+        {
+          "value": "A",
+          "label": "Từ bỏ lĩnh vực trước khi tìm hiểu."
+        },
+        {
+          "value": "B",
+          "label": "Chỉ học nhập dữ liệu thật nhanh."
+        },
+        {
+          "value": "C",
+          "label": "Học thuộc tên các phần mềm đang phổ biến."
+        },
+        {
+          "value": "D",
+          "label": "Thử phát hiện lỗi dữ liệu, giải thích ngoại lệ và tìm hiểu công cụ mới trong một bài tập."
+        },
+        {
+          "value": "U",
+          "label": "Chưa biết"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": "D",
+      "rubric": null
+    },
+    {
+      "id": "K08",
+      "module": "K",
+      "subgroup": "LC",
+      "content": "Hai lựa chọn sau THPT: một chương trình CĐ có thực hành nhiều, một chương trình ĐH thiên về lý thuyết. Em chưa rõ mục tiêu nghề. Cần làm gì trước?",
+      "type": "single_choice",
+      "options": [
+        {
+          "value": "A",
+          "label": "Chọn chương trình dài hơn vì chắc chắn có lợi."
+        },
+        {
+          "value": "B",
+          "label": "Chọn chương trình ngắn hơn vì chắc chắn tiết kiệm."
+        },
+        {
+          "value": "C",
+          "label": "Kiểm tra công việc đích, điều kiện tuyển sinh, học phí, đầu ra và cơ hội học tiếp của cả hai."
+        },
+        {
+          "value": "D",
+          "label": "Chọn theo bạn thân để có động lực."
+        },
+        {
+          "value": "U",
+          "label": "Chưa biết"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": "C",
+      "rubric": null
+    },
+    {
+      "id": "K09",
+      "module": "K",
+      "subgroup": "DL",
+      "content": "Em xem ba tin tuyển dụng: hai tin tại thành phố lớn và một tin ở huyện, đều yêu cầu kỹ năng khác nhau. Có thể kết luận gì?",
+      "type": "single_choice",
+      "options": [
+        {
+          "value": "A",
+          "label": "Ba tin là gợi ý về nhiệm vụ và kỹ năng tại nơi/thời điểm đó; cần thêm nguồn trước khi nói về nhu cầu toàn quốc."
+        },
+        {
+          "value": "B",
+          "label": "Kỹ năng xuất hiện hai lần là bắt buộc cho mọi việc."
+        },
+        {
+          "value": "C",
+          "label": "Tin ở huyện ít hơn nghĩa là địa phương không có cơ hội."
+        },
+        {
+          "value": "D",
+          "label": "Tổng ba mức lương là thu nhập trung bình của nghề."
+        },
+        {
+          "value": "U",
+          "label": "Chưa biết"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": "A",
+      "rubric": null
+    },
+    {
+      "id": "K10",
+      "module": "K",
+      "subgroup": "AI",
+      "content": "AI tạo một bản tóm tắt nghề có dẫn chứng nghe hợp lý, nhưng em không tìm thấy tài liệu gốc. Em cần làm gì?",
+      "type": "single_choice",
+      "options": [
+        {
+          "value": "A",
+          "label": "Đăng bản tóm tắt kèm chú thích “AI viết”."
+        },
+        {
+          "value": "B",
+          "label": "Dùng thông tin vì câu văn rất thuyết phục."
+        },
+        {
+          "value": "C",
+          "label": "Xóa tên tài liệu và giữ kết luận."
+        },
+        {
+          "value": "D",
+          "label": "Đánh dấu chưa kiểm chứng, tìm tài liệu gốc hoặc nguồn thay thế; không trình bày kết luận như sự thật."
+        },
+        {
+          "value": "U",
+          "label": "Chưa biết"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": "D",
+      "rubric": null
+    },
+    {
+      "id": "K11",
+      "module": "K",
+      "subgroup": "LC",
+      "content": "Em thích một nghề sau buổi trải nghiệm nhưng chưa có cơ hội thử nhiệm vụ khó nhất của nghề. Quyết định nào hợp lý?",
+      "type": "single_choice",
+      "options": [
+        {
+          "value": "A",
+          "label": "Chốt nghề vì cảm xúc trải nghiệm rất tích cực."
+        },
+        {
+          "value": "B",
+          "label": "Giữ nghề như giả thuyết; tìm một nhiệm vụ khác và hỏi người làm nghề về phần việc khó."
+        },
+        {
+          "value": "C",
+          "label": "Bỏ nghề vì chưa đủ trải nghiệm."
+        },
+        {
+          "value": "D",
+          "label": "Chờ đến khi có điểm trắc nghiệm cao hơn mới thử."
+        },
+        {
+          "value": "U",
+          "label": "Chưa biết"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": "B",
+      "rubric": null
+    },
+    {
+      "id": "K12",
+      "module": "K",
+      "subgroup": "TD",
+      "content": "Kế hoạch học tập 30 ngày bị gián đoạn một tuần vì lịch gia đình. Em nên xử lý thế nào?",
+      "type": "single_choice",
+      "options": [
+        {
+          "value": "A",
+          "label": "Làm bù tất cả trong một đêm."
+        },
+        {
+          "value": "B",
+          "label": "Giữ nguyên lịch cũ để thể hiện quyết tâm."
+        },
+        {
+          "value": "C",
+          "label": "Xem lại nguyên nhân, điều chỉnh mục tiêu vừa sức, chọn hành động kế tiếp và ngày kiểm tra mới."
+        },
+        {
+          "value": "D",
+          "label": "Đánh dấu kế hoạch thất bại và dừng thử."
+        },
+        {
+          "value": "U",
+          "label": "Chưa biết"
+        },
+        {
+          "value": "X",
+          "label": "Bỏ qua"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": "C",
+      "rubric": null
+    },
+    {
+      "id": "L01",
+      "module": "L",
+      "subgroup": "KT",
+      "content": "Tìm hiểu nhiệm vụ thường ngày của một nghề từ nguồn đáng tin.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "0",
+          "label": "Chưa làm dù có cơ hội"
+        },
+        {
+          "value": "1",
+          "label": "Làm một lần"
+        },
+        {
+          "value": "2",
+          "label": "Làm từ hai lần trở lên"
+        },
+        {
+          "value": "U",
+          "label": "Chưa có cơ hội/chưa rõ"
+        },
+        {
+          "value": "X",
+          "label": "Không muốn trả lời"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "L02",
+      "module": "L",
+      "subgroup": "KT",
+      "content": "So sánh điều kiện đầu vào của hai chương trình đào tạo.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "0",
+          "label": "Chưa làm dù có cơ hội"
+        },
+        {
+          "value": "1",
+          "label": "Làm một lần"
+        },
+        {
+          "value": "2",
+          "label": "Làm từ hai lần trở lên"
+        },
+        {
+          "value": "U",
+          "label": "Chưa có cơ hội/chưa rõ"
+        },
+        {
+          "value": "X",
+          "label": "Không muốn trả lời"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "L03",
+      "module": "L",
+      "subgroup": "KT",
+      "content": "Hỏi một người làm nghề hoặc cán bộ hướng nghiệp về công việc thực tế.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "0",
+          "label": "Chưa làm dù có cơ hội"
+        },
+        {
+          "value": "1",
+          "label": "Làm một lần"
+        },
+        {
+          "value": "2",
+          "label": "Làm từ hai lần trở lên"
+        },
+        {
+          "value": "U",
+          "label": "Chưa có cơ hội/chưa rõ"
+        },
+        {
+          "value": "X",
+          "label": "Không muốn trả lời"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "L04",
+      "module": "L",
+      "subgroup": "KT",
+      "content": "Tìm một thông tin nghề ở địa phương và ghi ngày, nguồn.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "0",
+          "label": "Chưa làm dù có cơ hội"
+        },
+        {
+          "value": "1",
+          "label": "Làm một lần"
+        },
+        {
+          "value": "2",
+          "label": "Làm từ hai lần trở lên"
+        },
+        {
+          "value": "U",
+          "label": "Chưa có cơ hội/chưa rõ"
+        },
+        {
+          "value": "X",
+          "label": "Không muốn trả lời"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "L05",
+      "module": "L",
+      "subgroup": "TN",
+      "content": "Thử làm một nhiệm vụ nhỏ liên quan tới nghề quan tâm.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "0",
+          "label": "Chưa làm dù có cơ hội"
+        },
+        {
+          "value": "1",
+          "label": "Làm một lần"
+        },
+        {
+          "value": "2",
+          "label": "Làm từ hai lần trở lên"
+        },
+        {
+          "value": "U",
+          "label": "Chưa có cơ hội/chưa rõ"
+        },
+        {
+          "value": "X",
+          "label": "Không muốn trả lời"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "L06",
+      "module": "L",
+      "subgroup": "TN",
+      "content": "Tham gia một hoạt động nhóm, câu lạc bộ hoặc mô phỏng nghề có nhiệm vụ cụ thể.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "0",
+          "label": "Chưa làm dù có cơ hội"
+        },
+        {
+          "value": "1",
+          "label": "Làm một lần"
+        },
+        {
+          "value": "2",
+          "label": "Làm từ hai lần trở lên"
+        },
+        {
+          "value": "U",
+          "label": "Chưa có cơ hội/chưa rõ"
+        },
+        {
+          "value": "X",
+          "label": "Không muốn trả lời"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "L07",
+      "module": "L",
+      "subgroup": "TN",
+      "content": "Xin nhận xét về một sản phẩm hoặc nhiệm vụ em vừa thử.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "0",
+          "label": "Chưa làm dù có cơ hội"
+        },
+        {
+          "value": "1",
+          "label": "Làm một lần"
+        },
+        {
+          "value": "2",
+          "label": "Làm từ hai lần trở lên"
+        },
+        {
+          "value": "U",
+          "label": "Chưa có cơ hội/chưa rõ"
+        },
+        {
+          "value": "X",
+          "label": "Không muốn trả lời"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "L08",
+      "module": "L",
+      "subgroup": "TN",
+      "content": "Thử một hoạt động khác với lựa chọn quen thuộc của mình.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "0",
+          "label": "Chưa làm dù có cơ hội"
+        },
+        {
+          "value": "1",
+          "label": "Làm một lần"
+        },
+        {
+          "value": "2",
+          "label": "Làm từ hai lần trở lên"
+        },
+        {
+          "value": "U",
+          "label": "Chưa có cơ hội/chưa rõ"
+        },
+        {
+          "value": "X",
+          "label": "Không muốn trả lời"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "L09",
+      "module": "L",
+      "subgroup": "SN",
+      "content": "Ghi lại điều em học được sau trải nghiệm.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "0",
+          "label": "Chưa làm dù có cơ hội"
+        },
+        {
+          "value": "1",
+          "label": "Làm một lần"
+        },
+        {
+          "value": "2",
+          "label": "Làm từ hai lần trở lên"
+        },
+        {
+          "value": "U",
+          "label": "Chưa có cơ hội/chưa rõ"
+        },
+        {
+          "value": "X",
+          "label": "Không muốn trả lời"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "L10",
+      "module": "L",
+      "subgroup": "SN",
+      "content": "So sánh một lựa chọn nghề với giá trị em coi trọng.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "0",
+          "label": "Chưa làm dù có cơ hội"
+        },
+        {
+          "value": "1",
+          "label": "Làm một lần"
+        },
+        {
+          "value": "2",
+          "label": "Làm từ hai lần trở lên"
+        },
+        {
+          "value": "U",
+          "label": "Chưa có cơ hội/chưa rõ"
+        },
+        {
+          "value": "X",
+          "label": "Không muốn trả lời"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "L11",
+      "module": "L",
+      "subgroup": "SN",
+      "content": "Sửa một phần kế hoạch sau thông tin hoặc phản hồi mới.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "0",
+          "label": "Chưa làm dù có cơ hội"
+        },
+        {
+          "value": "1",
+          "label": "Làm một lần"
+        },
+        {
+          "value": "2",
+          "label": "Làm từ hai lần trở lên"
+        },
+        {
+          "value": "U",
+          "label": "Chưa có cơ hội/chưa rõ"
+        },
+        {
+          "value": "X",
+          "label": "Không muốn trả lời"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "L12",
+      "module": "L",
+      "subgroup": "SN",
+      "content": "Chia sẻ một bước tiếp theo với người em tin cậy.",
+      "type": "scale",
+      "options": [
+        {
+          "value": "0",
+          "label": "Chưa làm dù có cơ hội"
+        },
+        {
+          "value": "1",
+          "label": "Làm một lần"
+        },
+        {
+          "value": "2",
+          "label": "Làm từ hai lần trở lên"
+        },
+        {
+          "value": "U",
+          "label": "Chưa có cơ hội/chưa rõ"
+        },
+        {
+          "value": "X",
+          "label": "Không muốn trả lời"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "M01",
+      "module": "M",
+      "subgroup": null,
+      "content": "Em đang học khối nào? (chọn một)",
+      "type": "single_choice",
+      "options": [
+        {
+          "value": "A",
+          "label": "10"
+        },
+        {
+          "value": "B",
+          "label": "11"
+        },
+        {
+          "value": "C",
+          "label": "12"
+        },
+        {
+          "value": "U",
+          "label": "Chưa rõ"
+        },
+        {
+          "value": "X",
+          "label": "Không muốn trả lời"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "M02",
+      "module": "M",
+      "subgroup": null,
+      "content": "Địa bàn trường theo mã phân loại do nhà trường cung cấp? (chọn một)",
+      "type": "single_choice",
+      "options": [
+        {
+          "value": "A",
+          "label": "Thành thị"
+        },
+        {
+          "value": "B",
+          "label": "Nông thôn"
+        },
+        {
+          "value": "C",
+          "label": "Chưa có mã phân loại"
+        },
+        {
+          "value": "U",
+          "label": "Chưa rõ"
+        },
+        {
+          "value": "X",
+          "label": "Không muốn trả lời"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "M03",
+      "module": "M",
+      "subgroup": null,
+      "content": "Hướng sau THPT em đang cân nhắc nhất? (chọn một)",
+      "type": "single_choice",
+      "options": [
+        {
+          "value": "A",
+          "label": "Đại học"
+        },
+        {
+          "value": "B",
+          "label": "Cao đẳng/trung cấp hoặc đào tạo nghề"
+        },
+        {
+          "value": "C",
+          "label": "Đi làm kết hợp học hoặc đào tạo tiếp"
+        },
+        {
+          "value": "D",
+          "label": "Khác"
+        },
+        {
+          "value": "E",
+          "label": "Chưa có hướng"
+        },
+        {
+          "value": "U",
+          "label": "Chưa rõ"
+        },
+        {
+          "value": "X",
+          "label": "Không muốn trả lời"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "M04",
+      "module": "M",
+      "subgroup": null,
+      "content": "Em hiện rõ đến đâu về một hướng nghề? (chọn một)",
+      "type": "single_choice",
+      "options": [
+        {
+          "value": "A",
+          "label": "Chưa có hướng"
+        },
+        {
+          "value": "B",
+          "label": "Có vài ý tưởng"
+        },
+        {
+          "value": "C",
+          "label": "Có 1–2 hướng đang kiểm chứng"
+        },
+        {
+          "value": "D",
+          "label": "Đã có hướng và phương án dự phòng"
+        },
+        {
+          "value": "U",
+          "label": "Chưa rõ"
+        },
+        {
+          "value": "X",
+          "label": "Không muốn trả lời"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "M05",
+      "module": "M",
+      "subgroup": null,
+      "content": "Trong học kỳ này, em từng tiếp cận nguồn thông tin nghề nào? (chọn các phương án phù hợp)",
+      "type": "multi_choice",
+      "options": [
+        {
+          "value": "A",
+          "label": "Website chính thức của trường/cơ quan"
+        },
+        {
+          "value": "B",
+          "label": "Giáo viên/cán bộ tư vấn"
+        },
+        {
+          "value": "C",
+          "label": "Người làm nghề/cựu học sinh"
+        },
+        {
+          "value": "D",
+          "label": "Gia đình/bạn bè"
+        },
+        {
+          "value": "E",
+          "label": "Mạng xã hội/AI"
+        },
+        {
+          "value": "F",
+          "label": "Chưa tiếp cận nguồn nào"
+        },
+        {
+          "value": "U",
+          "label": "Chưa rõ"
+        },
+        {
+          "value": "X",
+          "label": "Không muốn trả lời"
+        }
+      ],
+      "exclusive_values": [
+        "U",
+        "X",
+        "F"
+      ],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "M06",
+      "module": "M",
+      "subgroup": null,
+      "content": "Trong học kỳ này, em từng có trải nghiệm nào? (chọn các phương án phù hợp)",
+      "type": "multi_choice",
+      "options": [
+        {
+          "value": "A",
+          "label": "Tham quan hoặc nghe người làm nghề"
+        },
+        {
+          "value": "B",
+          "label": "Thực hành nhiệm vụ hoặc dự án"
+        },
+        {
+          "value": "C",
+          "label": "Tìm hiểu cơ sở đào tạo"
+        },
+        {
+          "value": "D",
+          "label": "Trao đổi riêng với người tư vấn"
+        },
+        {
+          "value": "E",
+          "label": "Chưa có trải nghiệm nào"
+        },
+        {
+          "value": "U",
+          "label": "Chưa rõ"
+        },
+        {
+          "value": "X",
+          "label": "Không muốn trả lời"
+        }
+      ],
+      "exclusive_values": [
+        "U",
+        "X",
+        "E"
+      ],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "M07",
+      "module": "M",
+      "subgroup": null,
+      "content": "Khi nói về tương lai với người lớn, em thấy mình có cơ hội bày tỏ ý kiến ở mức nào? (chọn một)",
+      "type": "single_choice",
+      "options": [
+        {
+          "value": "A",
+          "label": "Chưa có dịp trao đổi"
+        },
+        {
+          "value": "B",
+          "label": "Ít cơ hội nói"
+        },
+        {
+          "value": "C",
+          "label": "Có cơ hội nói một phần"
+        },
+        {
+          "value": "D",
+          "label": "Có cơ hội trao đổi và được lắng nghe"
+        },
+        {
+          "value": "U",
+          "label": "Chưa rõ"
+        },
+        {
+          "value": "X",
+          "label": "Không muốn trả lời"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "M08",
+      "module": "M",
+      "subgroup": null,
+      "content": "Điều nào đang khiến việc khám phá nghề khó hơn đối với em? (chọn các phương án phù hợp)",
+      "type": "multi_choice",
+      "options": [
+        {
+          "value": "A",
+          "label": "Thiếu thông tin đáng tin"
+        },
+        {
+          "value": "B",
+          "label": "Thiếu cơ hội trải nghiệm"
+        },
+        {
+          "value": "C",
+          "label": "Khó khăn thời gian/đi lại/chi phí"
+        },
+        {
+          "value": "D",
+          "label": "Chưa có người hỗ trợ"
+        },
+        {
+          "value": "E",
+          "label": "Khó thống nhất lựa chọn với gia đình"
+        },
+        {
+          "value": "F",
+          "label": "Rào cản tiếp cận khác"
+        },
+        {
+          "value": "G",
+          "label": "Chưa gặp trở ngại nào"
+        },
+        {
+          "value": "U",
+          "label": "Chưa rõ"
+        },
+        {
+          "value": "X",
+          "label": "Không muốn trả lời"
+        }
+      ],
+      "exclusive_values": [
+        "U",
+        "X",
+        "G"
+      ],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "M09",
+      "module": "M",
+      "subgroup": null,
+      "content": "Em tiếp cận công cụ số để tìm hiểu nghề như thế nào? (chọn một)",
+      "type": "single_choice",
+      "options": [
+        {
+          "value": "A",
+          "label": "Có thể dùng thường xuyên"
+        },
+        {
+          "value": "B",
+          "label": "Chỉ dùng khi mượn/chia sẻ thiết bị"
+        },
+        {
+          "value": "C",
+          "label": "Kết nối/thiết bị hạn chế"
+        },
+        {
+          "value": "D",
+          "label": "Chưa muốn hoặc chưa cần dùng"
+        },
+        {
+          "value": "U",
+          "label": "Chưa rõ"
+        },
+        {
+          "value": "X",
+          "label": "Không muốn trả lời"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "M10",
+      "module": "M",
+      "subgroup": null,
+      "content": "Em muốn được hỗ trợ theo cách nào? (chọn các phương án phù hợp)",
+      "type": "multi_choice",
+      "options": [
+        {
+          "value": "A",
+          "label": "Phiếu giấy hoặc tài liệu dễ đọc"
+        },
+        {
+          "value": "B",
+          "label": "Trải nghiệm/mô phỏng công việc"
+        },
+        {
+          "value": "C",
+          "label": "Trao đổi riêng với cán bộ tư vấn"
+        },
+        {
+          "value": "D",
+          "label": "Gặp người làm nghề/cựu học sinh"
+        },
+        {
+          "value": "E",
+          "label": "Thông tin học phí, học bổng, tuyển sinh"
+        },
+        {
+          "value": "F",
+          "label": "Trao đổi với gia đình có sự đồng ý"
+        },
+        {
+          "value": "G",
+          "label": "Chưa cần hỗ trợ"
+        },
+        {
+          "value": "U",
+          "label": "Chưa rõ"
+        },
+        {
+          "value": "X",
+          "label": "Không muốn trả lời"
+        }
+      ],
+      "exclusive_values": [
+        "U",
+        "X",
+        "G"
+      ],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "M11",
+      "module": "M",
+      "subgroup": null,
+      "content": "Em thấy mình có thể tìm được một bước đi tiếp theo khi kế hoạch thay đổi đến mức nào? (chọn một)",
+      "type": "single_choice",
+      "options": [
+        {
+          "value": "A",
+          "label": "Chưa hình dung được"
+        },
+        {
+          "value": "B",
+          "label": "Có thể khi được hướng dẫn nhiều"
+        },
+        {
+          "value": "C",
+          "label": "Có thể khi có một ít hỗ trợ"
+        },
+        {
+          "value": "D",
+          "label": "Có thể tự tìm bước tiếp theo"
+        },
+        {
+          "value": "U",
+          "label": "Chưa rõ"
+        },
+        {
+          "value": "X",
+          "label": "Không muốn trả lời"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "M12",
+      "module": "M",
+      "subgroup": null,
+      "content": "Nếu có lựa chọn phù hợp, em muốn khảo sát môi trường học/làm việc ở đâu? (chọn một)",
+      "type": "single_choice",
+      "options": [
+        {
+          "value": "A",
+          "label": "Gần nơi đang sống"
+        },
+        {
+          "value": "B",
+          "label": "Khu vực khác trong tỉnh/thành hoặc vùng lân cận"
+        },
+        {
+          "value": "C",
+          "label": "Địa phương xa hơn"
+        },
+        {
+          "value": "D",
+          "label": "Có thể cân nhắc nhiều nơi"
+        },
+        {
+          "value": "E",
+          "label": "Chưa có ưu tiên"
+        },
+        {
+          "value": "U",
+          "label": "Chưa rõ"
+        },
+        {
+          "value": "X",
+          "label": "Không muốn trả lời"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "N01",
+      "module": "N",
+      "subgroup": null,
+      "content": "Đọc dữ liệu và giới hạn suy luận — Một CLB khảo sát 20 bạn tự nguyện. 12 bạn thích làm video, 8 bạn thích làm mô hình; chỉ được chọn một. Hãy tính tỷ lệ thích video và viết một điều không thể kết luận từ khảo sát.",
+      "type": "practice_rubric",
+      "options": [
+        {
+          "value": "0",
+          "label": "Có sản phẩm nhưng chưa đạt"
+        },
+        {
+          "value": "1",
+          "label": "Đạt một phần"
+        },
+        {
+          "value": "2",
+          "label": "Đạt tiêu chí"
+        },
+        {
+          "value": "U",
+          "label": "Chưa thử/chưa có cơ hội"
+        },
+        {
+          "value": "X",
+          "label": "Từ chối"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": "Chấm: 1: đúng tỷ lệ hoặc nêu giới hạn hợp lý. 2: đúng 60% và có giới hạn; 0: không có cả hai."
+    },
+    {
+      "id": "N02",
+      "module": "N",
+      "subgroup": null,
+      "content": "Lập ngân sách đường học — Hai lộ trình giả định, cùng kỳ 1: A học phí 6 triệu, đi lại 2 triệu, học liệu 1 triệu; B học phí 4 triệu, đi lại 3 triệu, học liệu 1,5 triệu. Gia đình dự kiến 8 triệu. Tính tổng từng phương án và nêu một cách kiểm chứng/thu hẹp phần thiếu.",
+      "type": "practice_rubric",
+      "options": [
+        {
+          "value": "0",
+          "label": "Có sản phẩm nhưng chưa đạt"
+        },
+        {
+          "value": "1",
+          "label": "Đạt một phần"
+        },
+        {
+          "value": "2",
+          "label": "Đạt tiêu chí"
+        },
+        {
+          "value": "U",
+          "label": "Chưa thử/chưa có cơ hội"
+        },
+        {
+          "value": "X",
+          "label": "Từ chối"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": "Chấm: 1: cả hai tổng đúng hoặc có cách kiểm chứng phù hợp. 2: cả hai tổng đúng và một bước kiểm chứng/hỗ trợ cụ thể. 0: không đạt."
+    },
+    {
+      "id": "N03",
+      "module": "N",
+      "subgroup": null,
+      "content": "Đọc quy trình kỹ thuật — Mô phỏng: kiểm tra vật liệu → lắp mô hình giấy → thử độ vững → ghi kết quả. Sau lắp, mô hình nghiêng. Hãy đề xuất một phép kiểm tra an toàn và một cách ghi trước/sau sửa.",
+      "type": "practice_rubric",
+      "options": [
+        {
+          "value": "0",
+          "label": "Có sản phẩm nhưng chưa đạt"
+        },
+        {
+          "value": "1",
+          "label": "Đạt một phần"
+        },
+        {
+          "value": "2",
+          "label": "Đạt tiêu chí"
+        },
+        {
+          "value": "U",
+          "label": "Chưa thử/chưa có cơ hội"
+        },
+        {
+          "value": "X",
+          "label": "Từ chối"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": "Chấm: 1: phép thử an toàn hoặc cách ghi. 2: cả hai, có so sánh trước/sau. 0: không có cách phù hợp."
+    },
+    {
+      "id": "N04",
+      "module": "N",
+      "subgroup": null,
+      "content": "Thiết kế thông điệp cộng đồng — Trường muốn giảm chai nhựa dùng một lần. Với giấy A4, phác một thông điệp cho học sinh: hành động cụ thể, người đọc và lý do. Không cần vẽ đẹp.",
+      "type": "practice_rubric",
+      "options": [
+        {
+          "value": "0",
+          "label": "Có sản phẩm nhưng chưa đạt"
+        },
+        {
+          "value": "1",
+          "label": "Đạt một phần"
+        },
+        {
+          "value": "2",
+          "label": "Đạt tiêu chí"
+        },
+        {
+          "value": "U",
+          "label": "Chưa thử/chưa có cơ hội"
+        },
+        {
+          "value": "X",
+          "label": "Từ chối"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": "Chấm: 1: có hành động hoặc đối tượng/lý do. 2: hành động rõ, hướng tới đối tượng và lý do hợp lý. 0: không có nội dung phù hợp."
+    },
+    {
+      "id": "N05",
+      "module": "N",
+      "subgroup": null,
+      "content": "Giải thích cho người khác — Một bạn chưa hiểu “điểm sở thích không phải điểm năng lực”. Hãy viết 3–4 câu hoặc nói trong 1 phút, có ví dụ và câu hỏi kiểm tra bạn đã hiểu.",
+      "type": "practice_rubric",
+      "options": [
+        {
+          "value": "0",
+          "label": "Có sản phẩm nhưng chưa đạt"
+        },
+        {
+          "value": "1",
+          "label": "Đạt một phần"
+        },
+        {
+          "value": "2",
+          "label": "Đạt tiêu chí"
+        },
+        {
+          "value": "U",
+          "label": "Chưa thử/chưa có cơ hội"
+        },
+        {
+          "value": "X",
+          "label": "Từ chối"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": "Chấm: 1: giải thích phân biệt đúng hoặc ví dụ đúng. 2: phân biệt đúng, ví dụ và câu hỏi kiểm tra hiểu. 0: đồng nhất hai khái niệm hoặc không có ý phù hợp."
+    },
+    {
+      "id": "N06",
+      "module": "N",
+      "subgroup": null,
+      "content": "Kiểm chứng lời khuyên AI — Trích đoạn giả định: “Ngành X bảo đảm có việc, nguồn: một bài đăng không ghi năm”. Viết hai kiểm tra trước khi sử dụng lời khuyên và một câu viết lại trung thực hơn.",
+      "type": "practice_rubric",
+      "options": [
+        {
+          "value": "0",
+          "label": "Có sản phẩm nhưng chưa đạt"
+        },
+        {
+          "value": "1",
+          "label": "Đạt một phần"
+        },
+        {
+          "value": "2",
+          "label": "Đạt tiêu chí"
+        },
+        {
+          "value": "U",
+          "label": "Chưa thử/chưa có cơ hội"
+        },
+        {
+          "value": "X",
+          "label": "Từ chối"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": "Chấm: 1: có ít nhất một kiểm tra hợp lý hoặc câu viết lại đúng. 2: hai kiểm tra khác nhau và câu viết lại không bảo đảm. 0: chấp nhận lời khuyên vô điều kiện."
+    },
+    {
+      "id": "N07",
+      "module": "N",
+      "subgroup": null,
+      "content": "Tổ chức dự án nhỏ — Nhóm có 3 người, 45 phút, cần làm poster hướng nghiệp: tìm 2 nguồn, viết nội dung, trình bày/kiểm lỗi. Phân vai, nêu mốc kiểm tra và cách hỗ trợ khi một bạn chậm.",
+      "type": "practice_rubric",
+      "options": [
+        {
+          "value": "0",
+          "label": "Có sản phẩm nhưng chưa đạt"
+        },
+        {
+          "value": "1",
+          "label": "Đạt một phần"
+        },
+        {
+          "value": "2",
+          "label": "Đạt tiêu chí"
+        },
+        {
+          "value": "U",
+          "label": "Chưa thử/chưa có cơ hội"
+        },
+        {
+          "value": "X",
+          "label": "Từ chối"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": "Chấm: 1: phân vai hoặc mốc thời gian khả thi. 2: cả hai và cách hỗ trợ cụ thể. 0: không có kế hoạch khả thi."
+    },
+    {
+      "id": "N08",
+      "module": "N",
+      "subgroup": null,
+      "content": "Thích ứng với tương lai — Kịch bản giả định: một nghề em quan tâm dùng AI nhiều hơn; kịch bản khác: cơ sở đào tạo gần nhà chưa có ngành đó. Viết một kỹ năng dùng được trong cả hai và một hành động 7 ngày.",
+      "type": "practice_rubric",
+      "options": [
+        {
+          "value": "0",
+          "label": "Có sản phẩm nhưng chưa đạt"
+        },
+        {
+          "value": "1",
+          "label": "Đạt một phần"
+        },
+        {
+          "value": "2",
+          "label": "Đạt tiêu chí"
+        },
+        {
+          "value": "U",
+          "label": "Chưa thử/chưa có cơ hội"
+        },
+        {
+          "value": "X",
+          "label": "Từ chối"
+        }
+      ],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": "Chấm: 1: kỹ năng chuyển đổi hoặc hành động cụ thể. 2: kỹ năng hợp lý cho cả hai và việc 7 ngày có sản phẩm. 0: không có nội dung phù hợp."
+    },
+    {
+      "id": "O01",
+      "module": "O",
+      "subgroup": null,
+      "content": "Điều gì em thực sự làm hôm nay để hiểu mình hoặc hiểu nghề?",
+      "type": "private_reflection",
+      "options": [],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "O02",
+      "module": "O",
+      "subgroup": null,
+      "content": "Khi làm việc ấy, phần nào khiến em muốn tiếp tục? Phần nào cần đổi cách làm?",
+      "type": "private_reflection",
+      "options": [],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "O03",
+      "module": "O",
+      "subgroup": null,
+      "content": "Em đã có bằng chứng nào về tiến bộ, dù rất nhỏ?",
+      "type": "private_reflection",
+      "options": [],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "O04",
+      "module": "O",
+      "subgroup": null,
+      "content": "Có góp ý nào đáng cân nhắc? Em muốn thử thay đổi điều gì (nếu có)?",
+      "type": "private_reflection",
+      "options": [],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "O05",
+      "module": "O",
+      "subgroup": null,
+      "content": "Điều kiện nào đã giúp hoặc cản em? Em có muốn xin hỗ trợ không?",
+      "type": "private_reflection",
+      "options": [],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "O06",
+      "module": "O",
+      "subgroup": null,
+      "content": "Một thông tin về nghề hoặc thế giới mà em mới kiểm chứng là gì? Điều gì vẫn chưa rõ?",
+      "type": "private_reflection",
+      "options": [],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "O07",
+      "module": "O",
+      "subgroup": null,
+      "content": "Giá trị nào em đã thể hiện qua một hành động? Có điều gì em muốn bảo vệ tốt hơn?",
+      "type": "private_reflection",
+      "options": [],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    },
+    {
+      "id": "O08",
+      "module": "O",
+      "subgroup": null,
+      "content": "Bước nhỏ tiếp theo là gì, khi nào làm, và em sẽ biết mình đã làm được bằng cách nào?",
+      "type": "private_reflection",
+      "options": [],
+      "exclusive_values": [],
+      "answer_key": null,
+      "rubric": null
+    }
+  ]
+}

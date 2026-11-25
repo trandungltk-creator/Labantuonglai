@@ -1,0 +1,6 @@
+{
+  "name": "La Bàn Tương Lai — Hệ thống Tham vấn Học đường & Định hướng Tương lai THPT",
+  "description": "Hệ sinh thái tham vấn tâm lý học đường và định hướng nghề nghiệp 3 tầng dữ liệu dành cho học sinh THPT (15-18 tuổi) theo chuẩn ASCA, APA và Thông tư 18/2025/TT-BGDĐT.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
